@@ -1,0 +1,1311 @@
+Jan 12 00:00:02 my-server systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 50239 (rsyslogd) on client request.
+Jan 12 00:00:02 my-server rsyslogd[50239]: [origin software="rsyslogd" swVersion="8.2310.0-4.el9" x-pid="50239" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 12 00:00:02 my-server systemd[1]: logrotate.service: Deactivated successfully.
+Jan 12 00:00:02 my-server systemd[1]: Finished Rotate log files.
+Jan 12 01:26:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 01:26:02 my-server dnf[1238432]: Docker CE Stable - x86_64                        48 kB/s | 3.5 kB     00:00
+Jan 12 01:26:03 my-server dnf[1238432]: DigitalOcean Droplet Agent                       34 kB/s | 3.3 kB     00:00
+Jan 12 01:26:03 my-server dnf[1238432]: Extra Packages for Enterprise Linux 9 - x86_64  164 kB/s |  36 kB     00:00
+Jan 12 01:26:04 my-server dnf[1238432]: Extra Packages for Enterprise Linux 9 - x86_64   23 MB/s |  23 MB     00:00
+Jan 12 01:26:14 my-server dnf[1238432]: Extra Packages for Enterprise Linux 9 openh264  7.7 kB/s | 993  B     00:00
+Jan 12 01:26:14 my-server dnf[1238432]: MongoDB Repository                               18 kB/s | 1.3 kB     00:00
+Jan 12 01:26:14 my-server dnf[1238432]: Rocky Linux 9 - BaseOS                           13 kB/s | 4.1 kB     00:00
+Jan 12 01:26:15 my-server dnf[1238432]: Rocky Linux 9 - AppStream                        19 kB/s | 4.5 kB     00:00
+Jan 12 01:26:15 my-server dnf[1238432]: Rocky Linux 9 - Extras                           27 kB/s | 2.9 kB     00:00
+Jan 12 01:26:16 my-server dnf[1238432]: Metadata cache created.
+Jan 12 01:26:16 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 01:26:16 my-server systemd[1]: Finished dnf makecache.
+Jan 12 01:26:16 my-server systemd[1]: dnf-makecache.service: Consumed 12.440s CPU time.
+Jan 12 02:40:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 02:40:02 my-server dnf[1238677]: Metadata cache refreshed recently.
+Jan 12 02:40:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 02:40:02 my-server systemd[1]: Finished dnf makecache.
+Jan 12 04:24:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 04:24:02 my-server dnf[1238986]: Metadata cache refreshed recently.
+Jan 12 04:24:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 04:24:03 my-server systemd[1]: Finished dnf makecache.
+Jan 12 05:47:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 05:47:02 my-server dnf[1239219]: Docker CE Stable - x86_64                        49 kB/s | 3.5 kB     00:00
+Jan 12 05:47:03 my-server dnf[1239219]: DigitalOcean Droplet Agent                       43 kB/s | 3.3 kB     00:00
+Jan 12 05:47:03 my-server dnf[1239219]: Extra Packages for Enterprise Linux 9 - x86_64   61 kB/s |  12 kB     00:00
+Jan 12 05:47:03 my-server dnf[1239219]: Extra Packages for Enterprise Linux 9 openh264  5.8 kB/s | 993  B     00:00
+Jan 12 05:47:04 my-server dnf[1239219]: MongoDB Repository                               14 kB/s | 1.3 kB     00:00
+Jan 12 05:47:04 my-server dnf[1239219]: Rocky Linux 9 - BaseOS                           21 kB/s | 4.1 kB     00:00
+Jan 12 05:47:04 my-server dnf[1239219]: Rocky Linux 9 - AppStream                        10 kB/s | 4.5 kB     00:00
+Jan 12 05:47:05 my-server dnf[1239219]: Rocky Linux 9 - Extras                           28 kB/s | 2.9 kB     00:00
+Jan 12 05:47:05 my-server dnf[1239219]: Metadata cache created.
+Jan 12 05:47:05 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 05:47:05 my-server systemd[1]: Finished dnf makecache.
+Jan 12 05:47:05 my-server systemd[1]: dnf-makecache.service: Consumed 1.989s CPU time.
+Jan 12 06:59:07 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6072 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 12 06:59:07 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 12 06:59:07 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 06:59:07 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 07:16:53 my-server systemd[1]: Starting dnf makecache...
+Jan 12 07:16:53 my-server dnf[1240511]: Metadata cache refreshed recently.
+Jan 12 07:16:53 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 07:16:53 my-server systemd[1]: Finished dnf makecache.
+Jan 12 08:05:38 my-server auditd[665]: Audit daemon rotating log files
+Jan 12 08:24:28 my-server systemd[1]: Starting dnf makecache...
+Jan 12 08:24:28 my-server dnf[1240976]: Metadata cache refreshed recently.
+Jan 12 08:24:28 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 08:24:28 my-server systemd[1]: Finished dnf makecache.
+Jan 12 09:12:20 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6070 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 12 09:12:20 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 12 09:12:20 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 09:12:20 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 09:36:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 09:36:02 my-server dnf[1242032]: Docker CE Stable - x86_64                        50 kB/s | 3.5 kB     00:00
+Jan 12 09:36:02 my-server dnf[1242032]: DigitalOcean Droplet Agent                       52 kB/s | 3.3 kB     00:00
+Jan 12 09:36:03 my-server dnf[1242032]: Extra Packages for Enterprise Linux 9 - x86_64  297 kB/s |  36 kB     00:00
+Jan 12 09:36:03 my-server dnf[1242032]: Extra Packages for Enterprise Linux 9 openh264  9.9 kB/s | 993  B     00:00
+Jan 12 09:36:03 my-server dnf[1242032]: MongoDB Repository                               20 kB/s | 1.3 kB     00:00
+Jan 12 09:36:03 my-server dnf[1242032]: Rocky Linux 9 - BaseOS                           16 kB/s | 4.1 kB     00:00
+Jan 12 09:36:04 my-server dnf[1242032]: Rocky Linux 9 - AppStream                        19 kB/s | 4.5 kB     00:00
+Jan 12 09:36:04 my-server dnf[1242032]: Rocky Linux 9 - Extras                           35 kB/s | 2.9 kB     00:00
+Jan 12 09:36:04 my-server dnf[1242032]: Metadata cache created.
+Jan 12 09:36:04 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 09:36:04 my-server systemd[1]: Finished dnf makecache.
+Jan 12 09:36:04 my-server systemd[1]: dnf-makecache.service: Consumed 1.807s CPU time.
+Jan 12 10:56:07 my-server systemd[1]: Starting dnf makecache...
+Jan 12 10:56:08 my-server dnf[1242549]: Metadata cache refreshed recently.
+Jan 12 10:56:08 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 10:56:08 my-server systemd[1]: Finished dnf makecache.
+Jan 12 12:07:45 my-server systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 12 12:07:45 my-server systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jan 12 12:07:45 my-server systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 12 12:07:45 my-server systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Jan 12 12:38:49 my-server systemd[1]: Starting dnf makecache...
+Jan 12 12:38:49 my-server dnf[1243372]: Docker CE Stable - x86_64                        73 kB/s | 3.5 kB     00:00
+Jan 12 12:38:49 my-server dnf[1243372]: DigitalOcean Droplet Agent                       42 kB/s | 3.3 kB     00:00
+Jan 12 12:38:49 my-server dnf[1243372]: Extra Packages for Enterprise Linux 9 - x86_64  223 kB/s |  36 kB     00:00
+Jan 12 12:38:50 my-server dnf[1243372]: Extra Packages for Enterprise Linux 9 openh264  7.3 kB/s | 993  B     00:00
+Jan 12 12:38:50 my-server dnf[1243372]: MongoDB Repository                               22 kB/s | 1.3 kB     00:00
+Jan 12 12:38:50 my-server dnf[1243372]: Rocky Linux 9 - BaseOS                           26 kB/s | 4.1 kB     00:00
+Jan 12 12:38:50 my-server dnf[1243372]: Rocky Linux 9 - BaseOS                           18 MB/s | 2.3 MB     00:00
+Jan 12 12:38:51 my-server dnf[1243372]: Rocky Linux 9 - AppStream                        31 kB/s | 4.5 kB     00:00
+Jan 12 12:38:52 my-server dnf[1243372]: Rocky Linux 9 - Extras                          8.4 kB/s | 2.9 kB     00:00
+Jan 12 12:38:52 my-server dnf[1243372]: Metadata cache created.
+Jan 12 12:38:52 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 12:38:52 my-server systemd[1]: Finished dnf makecache.
+Jan 12 12:38:52 my-server systemd[1]: dnf-makecache.service: Consumed 2.752s CPU time.
+Jan 12 12:41:52 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 12 12:41:52 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 12 12:41:52 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 12:41:52 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 13:52:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 13:52:02 my-server dnf[1243960]: Metadata cache refreshed recently.
+Jan 12 13:52:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 13:52:03 my-server systemd[1]: Finished dnf makecache.
+Jan 12 15:17:43 my-server systemd[1]: Starting dnf makecache...
+Jan 12 15:17:43 my-server dnf[1245041]: Metadata cache refreshed recently.
+Jan 12 15:17:43 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 15:17:43 my-server systemd[1]: Finished dnf makecache.
+Jan 12 15:32:09 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6070 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 12 15:32:09 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 12 15:32:09 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 15:32:09 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 12 16:33:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 16:33:02 my-server dnf[1245432]: Docker CE Stable - x86_64                        62 kB/s | 3.5 kB     00:00
+Jan 12 16:33:02 my-server dnf[1245432]: DigitalOcean Droplet Agent                       50 kB/s | 3.3 kB     00:00
+Jan 12 16:33:03 my-server dnf[1245432]: Extra Packages for Enterprise Linux 9 - x86_64  280 kB/s |  36 kB     00:00
+Jan 12 16:33:03 my-server dnf[1245432]: Extra Packages for Enterprise Linux 9 openh264   10 kB/s | 993  B     00:00
+Jan 12 16:33:03 my-server dnf[1245432]: MongoDB Repository                               17 kB/s | 1.3 kB     00:00
+Jan 12 16:33:03 my-server dnf[1245432]: Rocky Linux 9 - BaseOS                           46 kB/s | 4.1 kB     00:00
+Jan 12 16:33:04 my-server dnf[1245432]: Rocky Linux 9 - AppStream                        32 kB/s | 4.5 kB     00:00
+Jan 12 16:33:05 my-server dnf[1245432]: Rocky Linux 9 - AppStream                       5.6 MB/s | 8.3 MB     00:01
+Jan 12 16:33:08 my-server dnf[1245432]: Rocky Linux 9 - Extras                           27 kB/s | 2.9 kB     00:00
+Jan 12 16:33:08 my-server dnf[1245432]: Metadata cache created.
+Jan 12 16:33:08 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 16:33:08 my-server systemd[1]: Finished dnf makecache.
+Jan 12 16:33:08 my-server systemd[1]: dnf-makecache.service: Consumed 4.643s CPU time.
+Jan 12 18:24:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 18:24:02 my-server dnf[1245815]: Metadata cache refreshed recently.
+Jan 12 18:24:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 18:24:02 my-server systemd[1]: Finished dnf makecache.
+Jan 12 19:41:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 19:41:02 my-server dnf[1246023]: Docker CE Stable - x86_64                        64 kB/s | 3.5 kB     00:00
+Jan 12 19:41:02 my-server dnf[1246023]: DigitalOcean Droplet Agent                       41 kB/s | 3.3 kB     00:00
+Jan 12 19:41:03 my-server dnf[1246023]: Extra Packages for Enterprise Linux 9 - x86_64  199 kB/s |  36 kB     00:00
+Jan 12 19:41:03 my-server dnf[1246023]: Extra Packages for Enterprise Linux 9 openh264  7.7 kB/s | 993  B     00:00
+Jan 12 19:41:03 my-server dnf[1246023]: MongoDB Repository                               17 kB/s | 1.3 kB     00:00
+Jan 12 19:41:04 my-server dnf[1246023]: Rocky Linux 9 - BaseOS                           16 kB/s | 4.1 kB     00:00
+Jan 12 19:41:04 my-server dnf[1246023]: Rocky Linux 9 - AppStream                       9.6 kB/s | 4.5 kB     00:00
+Jan 12 19:41:04 my-server dnf[1246023]: Rocky Linux 9 - Extras                           13 kB/s | 2.9 kB     00:00
+Jan 12 19:41:05 my-server dnf[1246023]: Rocky Linux 9 - Extras                           35 kB/s |  16 kB     00:00
+Jan 12 19:41:05 my-server dnf[1246023]: Metadata cache created.
+Jan 12 19:41:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 19:41:06 my-server systemd[1]: Finished dnf makecache.
+Jan 12 19:41:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.444s CPU time.
+Jan 12 21:06:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 21:06:02 my-server dnf[1246261]: Metadata cache refreshed recently.
+Jan 12 21:06:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 21:06:02 my-server systemd[1]: Finished dnf makecache.
+Jan 12 22:26:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 22:26:02 my-server dnf[1246480]: Metadata cache refreshed recently.
+Jan 12 22:26:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 22:26:02 my-server systemd[1]: Finished dnf makecache.
+Jan 12 23:33:02 my-server systemd[1]: Starting dnf makecache...
+Jan 12 23:33:03 my-server dnf[1246664]: Docker CE Stable - x86_64                        41 kB/s | 3.5 kB     00:00
+Jan 12 23:33:03 my-server dnf[1246664]: DigitalOcean Droplet Agent                       36 kB/s | 3.3 kB     00:00
+Jan 12 23:33:03 my-server dnf[1246664]: Extra Packages for Enterprise Linux 9 - x86_64   90 kB/s |  37 kB     00:00
+Jan 12 23:33:04 my-server dnf[1246664]: Extra Packages for Enterprise Linux 9 openh264  3.6 kB/s | 993  B     00:00
+Jan 12 23:33:04 my-server dnf[1246664]: MongoDB Repository                               18 kB/s | 1.3 kB     00:00
+Jan 12 23:33:04 my-server dnf[1246664]: Rocky Linux 9 - BaseOS                           34 kB/s | 4.1 kB     00:00
+Jan 12 23:33:04 my-server dnf[1246664]: Rocky Linux 9 - AppStream                        20 kB/s | 4.5 kB     00:00
+Jan 12 23:33:05 my-server dnf[1246664]: Rocky Linux 9 - AppStream                        14 MB/s | 8.3 MB     00:00
+Jan 12 23:33:05 my-server dnf[1246664]: Rocky Linux 9 - Extras                           13 kB/s | 2.9 kB     00:00
+Jan 12 23:33:06 my-server dnf[1246664]: Rocky Linux 9 - Extras                           43 kB/s |  16 kB     00:00
+Jan 12 23:33:06 my-server dnf[1246664]: Metadata cache created.
+Jan 12 23:33:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 12 23:33:06 my-server systemd[1]: Finished dnf makecache.
+Jan 12 23:33:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.812s CPU time.
+Jan 13 00:01:01 my-server systemd[1]: Starting Rotate log files...
+Jan 13 00:01:01 my-server systemd[1]: logrotate.service: Deactivated successfully.
+Jan 13 00:01:01 my-server systemd[1]: Finished Rotate log files.
+Jan 13 01:22:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 01:22:02 my-server dnf[1247303]: Metadata cache refreshed recently.
+Jan 13 01:22:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 01:22:02 my-server systemd[1]: Finished dnf makecache.
+Jan 13 01:48:41 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6072 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 13 01:48:41 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 13 01:48:41 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 01:48:41 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 01:54:11 my-server auditd[665]: Audit daemon rotating log files
+Jan 13 02:52:20 my-server systemd[1]: Starting dnf makecache...
+Jan 13 02:52:20 my-server dnf[1248252]: Docker CE Stable - x86_64                        64 kB/s | 3.5 kB     00:00
+Jan 13 02:52:21 my-server dnf[1248252]: DigitalOcean Droplet Agent                       35 kB/s | 3.3 kB     00:00
+Jan 13 02:52:21 my-server dnf[1248252]: Extra Packages for Enterprise Linux 9 - x86_64   36 kB/s |  12 kB     00:00
+Jan 13 02:52:22 my-server dnf[1248252]: Extra Packages for Enterprise Linux 9 - x86_64   15 MB/s |  23 MB     00:01
+Jan 13 02:52:33 my-server dnf[1248252]: Extra Packages for Enterprise Linux 9 openh264  3.6 kB/s | 993  B     00:00
+Jan 13 02:52:33 my-server dnf[1248252]: MongoDB Repository                               12 kB/s | 1.3 kB     00:00
+Jan 13 02:52:33 my-server dnf[1248252]: Rocky Linux 9 - BaseOS                           29 kB/s | 4.1 kB     00:00
+Jan 13 02:52:33 my-server dnf[1248252]: Rocky Linux 9 - AppStream                        26 kB/s | 4.5 kB     00:00
+Jan 13 02:52:33 my-server dnf[1248252]: Rocky Linux 9 - AppStream                        28 MB/s | 8.4 MB     00:00
+Jan 13 02:52:36 my-server dnf[1248252]: Rocky Linux 9 - Extras                           14 kB/s | 2.9 kB     00:00
+Jan 13 02:52:36 my-server dnf[1248252]: Rocky Linux 9 - Extras                          127 kB/s |  16 kB     00:00
+Jan 13 02:52:37 my-server dnf[1248252]: Metadata cache created.
+Jan 13 02:52:37 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 02:52:37 my-server systemd[1]: Finished dnf makecache.
+Jan 13 02:52:37 my-server systemd[1]: dnf-makecache.service: Consumed 14.583s CPU time.
+Jan 13 03:13:50 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6072 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 13 03:13:50 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 13 03:13:50 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 03:13:50 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 03:13:50 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 04:53:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 04:53:03 my-server dnf[1250159]: Metadata cache refreshed recently.
+Jan 13 04:53:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 04:53:03 my-server systemd[1]: Finished dnf makecache.
+Jan 13 05:57:02 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6070 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 13 05:57:02 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 13 05:57:02 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 05:57:02 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 06:09:13 my-server systemd[1]: Created slice User Slice of UID 0.
+Jan 13 06:09:13 my-server systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 13 06:09:13 my-server systemd-logind[708]: New session 89 of user root.
+Jan 13 06:09:13 my-server systemd[1]: Finished User Runtime Directory /run/user/0.
+Jan 13 06:09:13 my-server systemd[1]: Starting User Manager for UID 0...
+Jan 13 06:09:13 my-server systemd[1251174]: Queued start job for default target Main User Target.
+Jan 13 06:09:13 my-server systemd[1251174]: Created slice User Application Slice.
+Jan 13 06:09:13 my-server systemd[1251174]: Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Jan 13 06:09:13 my-server systemd[1251174]: Started Daily Cleanup of User's Temporary Directories.
+Jan 13 06:09:13 my-server systemd[1251174]: Reached target Paths.
+Jan 13 06:09:13 my-server systemd[1251174]: Reached target Timers.
+Jan 13 06:09:13 my-server systemd[1251174]: Starting D-Bus User Message Bus Socket...
+Jan 13 06:09:13 my-server systemd[1251174]: Starting Create User's Volatile Files and Directories...
+Jan 13 06:09:13 my-server systemd[1251174]: Finished Create User's Volatile Files and Directories.
+Jan 13 06:09:13 my-server systemd[1251174]: Listening on D-Bus User Message Bus Socket.
+Jan 13 06:09:13 my-server systemd[1251174]: Reached target Sockets.
+Jan 13 06:09:13 my-server systemd[1251174]: Reached target Basic System.
+Jan 13 06:09:13 my-server systemd[1251174]: Reached target Main User Target.
+Jan 13 06:09:13 my-server systemd[1251174]: Startup finished in 174ms.
+Jan 13 06:09:13 my-server systemd[1]: Started User Manager for UID 0.
+Jan 13 06:09:13 my-server systemd[1]: Started Session 89 of User root.
+Jan 13 06:09:14 my-server systemd[1]: Starting Hostname Service...
+Jan 13 06:09:14 my-server systemd[1]: Started Hostname Service.
+Jan 13 06:09:44 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 13 06:15:02 my-server systemd[1251174]: Created slice User Background Tasks Slice.
+Jan 13 06:15:02 my-server systemd[1251174]: Starting Cleanup of User's Temporary Files and Directories...
+Jan 13 06:15:02 my-server systemd[1251174]: Finished Cleanup of User's Temporary Files and Directories.
+Jan 13 06:45:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 06:45:03 my-server dnf[1251343]: Docker CE Stable - x86_64                        33 kB/s | 3.5 kB     00:00
+Jan 13 06:45:03 my-server dnf[1251343]: DigitalOcean Droplet Agent                       20 kB/s | 3.3 kB     00:00
+Jan 13 06:45:03 my-server dnf[1251343]: Extra Packages for Enterprise Linux 9 - x86_64   79 kB/s |  11 kB     00:00
+Jan 13 06:45:04 my-server dnf[1251343]: Extra Packages for Enterprise Linux 9 openh264  6.9 kB/s | 993  B     00:00
+Jan 13 06:45:04 my-server dnf[1251343]: MongoDB Repository                               11 kB/s | 1.3 kB     00:00
+Jan 13 06:45:05 my-server dnf[1251343]: Rocky Linux 9 - BaseOS                          9.6 kB/s | 4.1 kB     00:00
+Jan 13 06:45:05 my-server dnf[1251343]: Rocky Linux 9 - AppStream                        18 kB/s | 4.5 kB     00:00
+Jan 13 06:45:06 my-server dnf[1251343]: Rocky Linux 9 - Extras                          9.2 kB/s | 2.9 kB     00:00
+Jan 13 06:45:06 my-server dnf[1251343]: Metadata cache created.
+Jan 13 06:45:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 06:45:06 my-server systemd[1]: Finished dnf makecache.
+Jan 13 06:45:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.470s CPU time.
+Jan 13 08:21:20 my-server systemd[1]: session-89.scope: Deactivated successfully.
+Jan 13 08:21:20 my-server systemd[1]: session-89.scope: Consumed 3.029s CPU time.
+Jan 13 08:21:20 my-server systemd-logind[708]: Session 89 logged out. Waiting for processes to exit.
+Jan 13 08:21:20 my-server systemd-logind[708]: Removed session 89.
+Jan 13 08:21:30 my-server systemd[1]: Stopping User Manager for UID 0...
+Jan 13 08:21:30 my-server systemd[1251174]: Activating special unit Exit the Session...
+Jan 13 08:21:30 my-server systemd[1251174]: Removed slice User Background Tasks Slice.
+Jan 13 08:21:30 my-server systemd[1251174]: Stopped target Main User Target.
+Jan 13 08:21:30 my-server systemd[1251174]: Stopped target Basic System.
+Jan 13 08:21:30 my-server systemd[1251174]: Stopped target Paths.
+Jan 13 08:21:30 my-server systemd[1251174]: Stopped target Sockets.
+Jan 13 08:21:30 my-server systemd[1251174]: Stopped target Timers.
+Jan 13 08:21:30 my-server systemd[1251174]: Stopped Daily Cleanup of User's Temporary Directories.
+Jan 13 08:21:30 my-server systemd[1251174]: Closed D-Bus User Message Bus Socket.
+Jan 13 08:21:30 my-server systemd[1251174]: Stopped Create User's Volatile Files and Directories.
+Jan 13 08:21:30 my-server systemd[1251174]: Removed slice User Application Slice.
+Jan 13 08:21:30 my-server systemd[1251174]: Reached target Shutdown.
+Jan 13 08:21:30 my-server systemd[1251174]: Finished Exit the Session.
+Jan 13 08:21:30 my-server systemd[1251174]: Reached target Exit the Session.
+Jan 13 08:21:30 my-server systemd[1]: user@0.service: Deactivated successfully.
+Jan 13 08:21:30 my-server systemd[1]: Stopped User Manager for UID 0.
+Jan 13 08:21:30 my-server systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 13 08:21:30 my-server systemd[1]: run-user-0.mount: Deactivated successfully.
+Jan 13 08:21:30 my-server systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Jan 13 08:21:30 my-server systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 13 08:21:30 my-server systemd[1]: Removed slice User Slice of UID 0.
+Jan 13 08:21:30 my-server systemd[1]: user-0.slice: Consumed 3.317s CPU time.
+Jan 13 08:41:50 my-server systemd[1]: Starting dnf makecache...
+Jan 13 08:41:50 my-server dnf[1252004]: Metadata cache refreshed recently.
+Jan 13 08:41:50 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 08:41:50 my-server systemd[1]: Finished dnf makecache.
+Jan 13 10:07:54 my-server systemd[1]: Starting dnf makecache...
+Jan 13 10:07:54 my-server dnf[1252334]: Docker CE Stable - x86_64                        63 kB/s | 3.5 kB     00:00
+Jan 13 10:07:54 my-server dnf[1252334]: DigitalOcean Droplet Agent                       50 kB/s | 3.3 kB     00:00
+Jan 13 10:07:54 my-server dnf[1252334]: Extra Packages for Enterprise Linux 9 - x86_64  106 kB/s |  35 kB     00:00
+Jan 13 10:07:55 my-server dnf[1252334]: Extra Packages for Enterprise Linux 9 openh264  7.8 kB/s | 993  B     00:00
+Jan 13 10:07:55 my-server dnf[1252334]: MongoDB Repository                               16 kB/s | 1.3 kB     00:00
+Jan 13 10:07:55 my-server dnf[1252334]: Rocky Linux 9 - BaseOS                           26 kB/s | 4.1 kB     00:00
+Jan 13 10:07:56 my-server dnf[1252334]: Rocky Linux 9 - AppStream                        10 kB/s | 4.5 kB     00:00
+Jan 13 10:07:56 my-server dnf[1252334]: Rocky Linux 9 - Extras                           17 kB/s | 2.9 kB     00:00
+Jan 13 10:07:56 my-server dnf[1252334]: Metadata cache created.
+Jan 13 10:07:56 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 10:07:56 my-server systemd[1]: Finished dnf makecache.
+Jan 13 10:07:56 my-server systemd[1]: dnf-makecache.service: Consumed 1.580s CPU time.
+Jan 13 11:28:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 11:28:02 my-server dnf[1252668]: Metadata cache refreshed recently.
+Jan 13 11:28:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 11:28:02 my-server systemd[1]: Finished dnf makecache.
+Jan 13 11:40:47 my-server chronyd[50285]: Source 15.204.87.223 replaced with 50.218.103.254 (2.rocky.pool.ntp.org)
+Jan 13 12:08:02 my-server systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 13 12:08:02 my-server systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jan 13 12:08:02 my-server systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 13 12:08:02 my-server systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Jan 13 12:16:05 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6072 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 13 12:16:05 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 13 12:16:05 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 12:16:05 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 12:29:13 my-server chronyd[50285]: Selected source 50.218.103.254 (2.rocky.pool.ntp.org)
+Jan 13 13:22:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 13:22:02 my-server dnf[1253467]: Docker CE Stable - x86_64                        49 kB/s | 3.5 kB     00:00
+Jan 13 13:22:03 my-server dnf[1253467]: DigitalOcean Droplet Agent                       35 kB/s | 3.3 kB     00:00
+Jan 13 13:22:03 my-server dnf[1253467]: Extra Packages for Enterprise Linux 9 - x86_64   91 kB/s |  36 kB     00:00
+Jan 13 13:22:04 my-server dnf[1253467]: Extra Packages for Enterprise Linux 9 openh264  8.2 kB/s | 993  B     00:00
+Jan 13 13:22:04 my-server dnf[1253467]: MongoDB Repository                               18 kB/s | 1.3 kB     00:00
+Jan 13 13:22:04 my-server dnf[1253467]: Rocky Linux 9 - BaseOS                           44 kB/s | 4.1 kB     00:00
+Jan 13 13:22:04 my-server dnf[1253467]: Rocky Linux 9 - AppStream                        25 kB/s | 4.5 kB     00:00
+Jan 13 13:22:05 my-server dnf[1253467]: Rocky Linux 9 - Extras                           26 kB/s | 2.9 kB     00:00
+Jan 13 13:22:05 my-server dnf[1253467]: Metadata cache created.
+Jan 13 13:22:05 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 13:22:05 my-server systemd[1]: Finished dnf makecache.
+Jan 13 13:22:05 my-server systemd[1]: dnf-makecache.service: Consumed 2.096s CPU time.
+Jan 13 13:54:49 my-server auditd[665]: Audit daemon rotating log files
+Jan 13 14:26:23 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 13 14:26:23 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 13 14:26:23 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 14:26:23 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 14:56:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 14:56:02 my-server dnf[1254682]: Metadata cache refreshed recently.
+Jan 13 14:56:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 14:56:02 my-server systemd[1]: Finished dnf makecache.
+Jan 13 16:25:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 16:25:03 my-server dnf[1254989]: Docker CE Stable - x86_64                        29 kB/s | 3.5 kB     00:00
+Jan 13 16:25:03 my-server dnf[1254989]: DigitalOcean Droplet Agent                       27 kB/s | 3.3 kB     00:00
+Jan 13 16:25:03 my-server dnf[1254989]: Extra Packages for Enterprise Linux 9 - x86_64  165 kB/s |  36 kB     00:00
+Jan 13 16:25:04 my-server dnf[1254989]: Extra Packages for Enterprise Linux 9 openh264  5.2 kB/s | 993  B     00:00
+Jan 13 16:25:04 my-server dnf[1254989]: MongoDB Repository                              9.0 kB/s | 1.3 kB     00:00
+Jan 13 16:25:05 my-server dnf[1254989]: Rocky Linux 9 - BaseOS                           26 kB/s | 4.1 kB     00:00
+Jan 13 16:25:05 my-server dnf[1254989]: Rocky Linux 9 - AppStream                        21 kB/s | 4.5 kB     00:00
+Jan 13 16:25:05 my-server dnf[1254989]: Rocky Linux 9 - Extras                           11 kB/s | 2.9 kB     00:00
+Jan 13 16:25:06 my-server dnf[1254989]: Metadata cache created.
+Jan 13 16:25:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 16:25:06 my-server systemd[1]: Finished dnf makecache.
+Jan 13 16:25:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.302s CPU time.
+Jan 13 17:46:10 my-server systemd[1]: Starting dnf makecache...
+Jan 13 17:46:10 my-server dnf[1255669]: Metadata cache refreshed recently.
+Jan 13 17:46:10 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 17:46:10 my-server systemd[1]: Finished dnf makecache.
+Jan 13 19:12:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 19:12:02 my-server dnf[1255965]: Metadata cache refreshed recently.
+Jan 13 19:12:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 19:12:02 my-server systemd[1]: Finished dnf makecache.
+Jan 13 19:53:01 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 13 19:53:01 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 13 19:53:01 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 19:53:01 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 13 20:57:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 20:57:02 my-server dnf[1256382]: Docker CE Stable - x86_64                        55 kB/s | 3.5 kB     00:00
+Jan 13 20:57:03 my-server dnf[1256382]: Docker CE Stable - x86_64                       320 kB/s |  62 kB     00:00
+Jan 13 20:57:03 my-server dnf[1256382]: DigitalOcean Droplet Agent                       41 kB/s | 3.3 kB     00:00
+Jan 13 20:57:03 my-server dnf[1256382]: Extra Packages for Enterprise Linux 9 - x86_64  232 kB/s |  36 kB     00:00
+Jan 13 20:57:03 my-server dnf[1256382]: Extra Packages for Enterprise Linux 9 openh264  7.1 kB/s | 993  B     00:00
+Jan 13 20:57:03 my-server dnf[1256382]: MongoDB Repository                               16 kB/s | 1.3 kB     00:00
+Jan 13 20:57:04 my-server dnf[1256382]: Rocky Linux 9 - BaseOS                           11 kB/s | 4.1 kB     00:00
+Jan 13 20:57:04 my-server dnf[1256382]: Rocky Linux 9 - AppStream                        18 kB/s | 4.5 kB     00:00
+Jan 13 20:57:05 my-server dnf[1256382]: Rocky Linux 9 - Extras                           12 kB/s | 2.9 kB     00:00
+Jan 13 20:57:05 my-server dnf[1256382]: Metadata cache created.
+Jan 13 20:57:05 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 20:57:05 my-server systemd[1]: Finished dnf makecache.
+Jan 13 20:57:05 my-server systemd[1]: dnf-makecache.service: Consumed 2.393s CPU time.
+Jan 13 22:09:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 22:09:02 my-server dnf[1257238]: Metadata cache refreshed recently.
+Jan 13 22:09:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 22:09:02 my-server systemd[1]: Finished dnf makecache.
+Jan 13 23:48:02 my-server systemd[1]: Starting dnf makecache...
+Jan 13 23:48:02 my-server dnf[1257459]: Metadata cache refreshed recently.
+Jan 13 23:48:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 13 23:48:02 my-server systemd[1]: Finished dnf makecache.
+Jan 14 00:00:00 my-server systemd[1]: Starting Rotate log files...
+Jan 14 00:00:00 my-server systemd[1]: logrotate.service: Deactivated successfully.
+Jan 14 00:00:00 my-server systemd[1]: Finished Rotate log files.
+Jan 14 00:02:59 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 00:02:59 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 00:02:59 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 00:02:59 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 00:44:47 my-server auditd[665]: Audit daemon rotating log files
+Jan 14 00:51:02 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6073 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 00:51:02 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 00:51:02 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 00:51:02 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 00:51:02 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 01:10:38 my-server systemd[1]: Starting dnf makecache...
+Jan 14 01:10:39 my-server dnf[1261542]: Docker CE Stable - x86_64                        66 kB/s | 3.5 kB     00:00
+Jan 14 01:10:39 my-server dnf[1261542]: DigitalOcean Droplet Agent                       51 kB/s | 3.3 kB     00:00
+Jan 14 01:10:39 my-server dnf[1261542]: Extra Packages for Enterprise Linux 9 - x86_64  296 kB/s |  36 kB     00:00
+Jan 14 01:10:40 my-server dnf[1261542]: Extra Packages for Enterprise Linux 9 openh264  3.6 kB/s | 993  B     00:00
+Jan 14 01:10:40 my-server dnf[1261542]: MongoDB Repository                               16 kB/s | 1.3 kB     00:00
+Jan 14 01:10:40 my-server dnf[1261542]: Rocky Linux 9 - BaseOS                           28 kB/s | 4.1 kB     00:00
+Jan 14 01:10:40 my-server dnf[1261542]: Rocky Linux 9 - AppStream                        13 kB/s | 4.5 kB     00:00
+Jan 14 01:10:40 my-server dnf[1261542]: Rocky Linux 9 - Extras                           26 kB/s | 2.9 kB     00:00
+Jan 14 01:10:41 my-server dnf[1261542]: Metadata cache created.
+Jan 14 01:10:41 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 01:10:41 my-server systemd[1]: Finished dnf makecache.
+Jan 14 01:10:41 my-server systemd[1]: dnf-makecache.service: Consumed 1.742s CPU time.
+Jan 14 01:40:01 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 01:40:01 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 01:40:01 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 01:40:01 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 01:40:01 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 02:39:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 02:39:02 my-server dnf[1264188]: Metadata cache refreshed recently.
+Jan 14 02:39:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 02:39:02 my-server systemd[1]: Finished dnf makecache.
+Jan 14 03:28:33 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.1 (6074 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 03:28:33 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 03:28:33 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 03:28:33 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 04:17:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 04:17:03 my-server dnf[1265390]: Docker CE Stable - x86_64                        39 kB/s | 3.5 kB     00:00
+Jan 14 04:17:03 my-server dnf[1265390]: DigitalOcean Droplet Agent                       31 kB/s | 3.3 kB     00:00
+Jan 14 04:17:03 my-server dnf[1265390]: Extra Packages for Enterprise Linux 9 - x86_64   39 kB/s | 7.8 kB     00:00
+Jan 14 04:17:04 my-server dnf[1265390]: Extra Packages for Enterprise Linux 9 - x86_64   38 MB/s |  23 MB     00:00
+Jan 14 04:17:15 my-server dnf[1265390]: Extra Packages for Enterprise Linux 9 openh264  7.1 kB/s | 993  B     00:00
+Jan 14 04:17:15 my-server dnf[1265390]: MongoDB Repository                               17 kB/s | 1.3 kB     00:00
+Jan 14 04:17:16 my-server dnf[1265390]: Rocky Linux 9 - BaseOS                           11 kB/s | 4.1 kB     00:00
+Jan 14 04:17:16 my-server dnf[1265390]: Rocky Linux 9 - AppStream                        16 kB/s | 4.5 kB     00:00
+Jan 14 04:17:16 my-server dnf[1265390]: Rocky Linux 9 - Extras                           24 kB/s | 2.9 kB     00:00
+Jan 14 04:17:17 my-server dnf[1265390]: Metadata cache created.
+Jan 14 04:17:18 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 04:17:18 my-server systemd[1]: Finished dnf makecache.
+Jan 14 04:17:18 my-server systemd[1]: dnf-makecache.service: Consumed 13.741s CPU time.
+Jan 14 04:19:55 my-server systemd[1]: Created slice User Slice of UID 0.
+Jan 14 04:19:55 my-server systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 14 04:19:55 my-server systemd-logind[708]: New session 91 of user root.
+Jan 14 04:19:55 my-server systemd[1]: Finished User Runtime Directory /run/user/0.
+Jan 14 04:19:55 my-server systemd[1]: Starting User Manager for UID 0...
+Jan 14 04:19:55 my-server systemd[1265415]: Queued start job for default target Main User Target.
+Jan 14 04:19:55 my-server systemd[1265415]: Created slice User Application Slice.
+Jan 14 04:19:55 my-server systemd[1265415]: Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Jan 14 04:19:55 my-server systemd[1265415]: Started Daily Cleanup of User's Temporary Directories.
+Jan 14 04:19:55 my-server systemd[1265415]: Reached target Paths.
+Jan 14 04:19:55 my-server systemd[1265415]: Reached target Timers.
+Jan 14 04:19:55 my-server systemd[1265415]: Starting D-Bus User Message Bus Socket...
+Jan 14 04:19:55 my-server systemd[1265415]: Starting Create User's Volatile Files and Directories...
+Jan 14 04:19:55 my-server systemd[1265415]: Listening on D-Bus User Message Bus Socket.
+Jan 14 04:19:55 my-server systemd[1265415]: Reached target Sockets.
+Jan 14 04:19:55 my-server systemd[1265415]: Finished Create User's Volatile Files and Directories.
+Jan 14 04:19:55 my-server systemd[1265415]: Reached target Basic System.
+Jan 14 04:19:55 my-server systemd[1265415]: Reached target Main User Target.
+Jan 14 04:19:55 my-server systemd[1265415]: Startup finished in 122ms.
+Jan 14 04:19:55 my-server systemd[1]: Started User Manager for UID 0.
+Jan 14 04:19:55 my-server systemd[1]: Started Session 91 of User root.
+Jan 14 04:19:55 my-server systemd[1]: Starting Hostname Service...
+Jan 14 04:19:55 my-server systemd[1]: Started Hostname Service.
+Jan 14 04:20:21 my-server su[1265467]: (to admin) root on pts/0
+Jan 14 04:20:25 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 14 04:25:02 my-server systemd[1265415]: Created slice User Background Tasks Slice.
+Jan 14 04:25:02 my-server systemd[1265415]: Starting Cleanup of User's Temporary Files and Directories...
+Jan 14 04:25:02 my-server systemd[1265415]: Finished Cleanup of User's Temporary Files and Directories.
+Jan 14 05:45:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 05:45:03 my-server dnf[1265804]: Metadata cache refreshed recently.
+Jan 14 05:45:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 05:45:03 my-server systemd[1]: Finished dnf makecache.
+Jan 14 06:14:37 my-server auditd[665]: Audit daemon rotating log files
+Jan 14 06:21:36 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6070 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 06:21:36 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 06:21:36 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 06:21:36 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 06:21:36 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 06:33:38 my-server systemd[1]: session-91.scope: Deactivated successfully.
+Jan 14 06:33:38 my-server systemd-logind[708]: Session 91 logged out. Waiting for processes to exit.
+Jan 14 06:33:38 my-server systemd-logind[708]: Removed session 91.
+Jan 14 06:33:48 my-server systemd[1]: Stopping User Manager for UID 0...
+Jan 14 06:33:48 my-server systemd[1265415]: Activating special unit Exit the Session...
+Jan 14 06:33:48 my-server systemd[1265415]: Removed slice User Background Tasks Slice.
+Jan 14 06:33:48 my-server systemd[1265415]: Stopped target Main User Target.
+Jan 14 06:33:48 my-server systemd[1265415]: Stopped target Basic System.
+Jan 14 06:33:48 my-server systemd[1265415]: Stopped target Paths.
+Jan 14 06:33:48 my-server systemd[1265415]: Stopped target Sockets.
+Jan 14 06:33:48 my-server systemd[1265415]: Stopped target Timers.
+Jan 14 06:33:48 my-server systemd[1265415]: Stopped Daily Cleanup of User's Temporary Directories.
+Jan 14 06:33:48 my-server systemd[1265415]: Closed D-Bus User Message Bus Socket.
+Jan 14 06:33:48 my-server systemd[1265415]: Stopped Create User's Volatile Files and Directories.
+Jan 14 06:33:48 my-server systemd[1265415]: Removed slice User Application Slice.
+Jan 14 06:33:48 my-server systemd[1265415]: Reached target Shutdown.
+Jan 14 06:33:48 my-server systemd[1265415]: Finished Exit the Session.
+Jan 14 06:33:48 my-server systemd[1265415]: Reached target Exit the Session.
+Jan 14 06:33:48 my-server systemd[1]: user@0.service: Deactivated successfully.
+Jan 14 06:33:48 my-server systemd[1]: Stopped User Manager for UID 0.
+Jan 14 06:33:48 my-server systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 14 06:33:48 my-server systemd[1]: run-user-0.mount: Deactivated successfully.
+Jan 14 06:33:48 my-server systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Jan 14 06:33:48 my-server systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 14 06:33:48 my-server systemd[1]: Removed slice User Slice of UID 0.
+Jan 14 07:35:21 my-server systemd[1]: Starting dnf makecache...
+Jan 14 07:35:21 my-server dnf[1266867]: Docker CE Stable - x86_64                        70 kB/s | 3.5 kB     00:00
+Jan 14 07:35:21 my-server dnf[1266867]: DigitalOcean Droplet Agent                       57 kB/s | 3.3 kB     00:00
+Jan 14 07:35:22 my-server dnf[1266867]: Extra Packages for Enterprise Linux 9 - x86_64   22 kB/s | 8.1 kB     00:00
+Jan 14 07:35:22 my-server dnf[1266867]: Extra Packages for Enterprise Linux 9 openh264  3.8 kB/s | 993  B     00:00
+Jan 14 07:35:22 my-server dnf[1266867]: MongoDB Repository                               19 kB/s | 1.3 kB     00:00
+Jan 14 07:35:22 my-server dnf[1266867]: Rocky Linux 9 - BaseOS                           42 kB/s | 4.1 kB     00:00
+Jan 14 07:35:23 my-server dnf[1266867]: Rocky Linux 9 - AppStream                        45 kB/s | 4.5 kB     00:00
+Jan 14 07:35:23 my-server dnf[1266867]: Rocky Linux 9 - Extras                           14 kB/s | 2.9 kB     00:00
+Jan 14 07:35:23 my-server dnf[1266867]: Metadata cache created.
+Jan 14 07:35:23 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 07:35:23 my-server systemd[1]: Finished dnf makecache.
+Jan 14 07:35:23 my-server systemd[1]: dnf-makecache.service: Consumed 1.618s CPU time.
+Jan 14 09:23:56 my-server systemd[1]: Starting dnf makecache...
+Jan 14 09:23:56 my-server dnf[1267596]: Metadata cache refreshed recently.
+Jan 14 09:23:56 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 09:23:56 my-server systemd[1]: Finished dnf makecache.
+Jan 14 09:51:37 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 09:51:37 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 09:51:37 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 09:51:37 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 10:52:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 10:52:03 my-server dnf[1268837]: Docker CE Stable - x86_64                        20 kB/s | 3.5 kB     00:00
+Jan 14 10:52:03 my-server dnf[1268837]: DigitalOcean Droplet Agent                       34 kB/s | 3.3 kB     00:00
+Jan 14 10:52:03 my-server dnf[1268837]: Extra Packages for Enterprise Linux 9 - x86_64  148 kB/s |  35 kB     00:00
+Jan 14 10:52:04 my-server dnf[1268837]: Extra Packages for Enterprise Linux 9 openh264  7.2 kB/s | 993  B     00:00
+Jan 14 10:52:04 my-server dnf[1268837]: MongoDB Repository                               12 kB/s | 1.3 kB     00:00
+Jan 14 10:52:04 my-server dnf[1268837]: Rocky Linux 9 - BaseOS                           18 kB/s | 4.1 kB     00:00
+Jan 14 10:52:04 my-server dnf[1268837]: Rocky Linux 9 - AppStream                        22 kB/s | 4.5 kB     00:00
+Jan 14 10:52:05 my-server dnf[1268837]: Rocky Linux 9 - Extras                          6.1 kB/s | 2.9 kB     00:00
+Jan 14 10:52:05 my-server dnf[1268837]: Metadata cache created.
+Jan 14 10:52:05 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 10:52:05 my-server systemd[1]: Finished dnf makecache.
+Jan 14 10:52:05 my-server systemd[1]: dnf-makecache.service: Consumed 2.123s CPU time.
+Jan 14 12:08:58 my-server systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 14 12:08:58 my-server systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jan 14 12:08:58 my-server systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 14 12:08:58 my-server systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Jan 14 12:27:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 12:27:02 my-server dnf[1269271]: Metadata cache refreshed recently.
+Jan 14 12:27:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 12:27:02 my-server systemd[1]: Finished dnf makecache.
+Jan 14 14:25:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 14:25:03 my-server dnf[1269625]: Docker CE Stable - x86_64                        31 kB/s | 3.5 kB     00:00
+Jan 14 14:25:03 my-server dnf[1269625]: DigitalOcean Droplet Agent                       16 kB/s | 3.3 kB     00:00
+Jan 14 14:25:03 my-server dnf[1269625]: Extra Packages for Enterprise Linux 9 - x86_64  213 kB/s |  36 kB     00:00
+Jan 14 14:25:04 my-server dnf[1269625]: Extra Packages for Enterprise Linux 9 openh264  5.5 kB/s | 993  B     00:00
+Jan 14 14:25:05 my-server dnf[1269625]: MongoDB Repository                              8.5 kB/s | 1.3 kB     00:00
+Jan 14 14:25:05 my-server dnf[1269625]: Rocky Linux 9 - BaseOS                          8.7 kB/s | 4.1 kB     00:00
+Jan 14 14:25:06 my-server dnf[1269625]: Rocky Linux 9 - AppStream                        18 kB/s | 4.5 kB     00:00
+Jan 14 14:25:06 my-server dnf[1269625]: Rocky Linux 9 - Extras                          4.8 kB/s | 2.9 kB     00:00
+Jan 14 14:25:07 my-server dnf[1269625]: Metadata cache created.
+Jan 14 14:25:07 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 14:25:07 my-server systemd[1]: Finished dnf makecache.
+Jan 14 14:25:07 my-server systemd[1]: dnf-makecache.service: Consumed 2.578s CPU time.
+Jan 14 14:35:07 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 14:35:07 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 14:35:07 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 14:35:07 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 15:48:42 my-server systemd[1]: Starting dnf makecache...
+Jan 14 15:48:43 my-server dnf[1270470]: Metadata cache refreshed recently.
+Jan 14 15:48:43 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 15:48:43 my-server systemd[1]: Finished dnf makecache.
+Jan 14 17:38:36 my-server systemd[1]: Starting dnf makecache...
+Jan 14 17:38:36 my-server dnf[1270943]: Docker CE Stable - x86_64                        77 kB/s | 3.5 kB     00:00
+Jan 14 17:38:36 my-server dnf[1270943]: DigitalOcean Droplet Agent                       52 kB/s | 3.3 kB     00:00
+Jan 14 17:38:36 my-server dnf[1270943]: Extra Packages for Enterprise Linux 9 - x86_64  241 kB/s |  36 kB     00:00
+Jan 14 17:38:37 my-server dnf[1270943]: Extra Packages for Enterprise Linux 9 openh264  3.9 kB/s | 993  B     00:00
+Jan 14 17:38:37 my-server dnf[1270943]: MongoDB Repository                               17 kB/s | 1.3 kB     00:00
+Jan 14 17:38:37 my-server dnf[1270943]: Rocky Linux 9 - BaseOS                           11 kB/s | 4.1 kB     00:00
+Jan 14 17:38:38 my-server dnf[1270943]: Rocky Linux 9 - AppStream                        41 kB/s | 4.5 kB     00:00
+Jan 14 17:38:38 my-server dnf[1270943]: Rocky Linux 9 - Extras                          8.6 kB/s | 2.9 kB     00:00
+Jan 14 17:38:38 my-server dnf[1270943]: Metadata cache created.
+Jan 14 17:38:38 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 17:38:38 my-server systemd[1]: Finished dnf makecache.
+Jan 14 17:38:38 my-server systemd[1]: dnf-makecache.service: Consumed 1.698s CPU time.
+Jan 14 19:13:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 19:13:02 my-server dnf[1271409]: Metadata cache refreshed recently.
+Jan 14 19:13:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 19:13:02 my-server systemd[1]: Finished dnf makecache.
+Jan 14 19:57:19 my-server systemd[1]: Created slice User Slice of UID 0.
+Jan 14 19:57:19 my-server systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 14 19:57:19 my-server systemd-logind[708]: New session 93 of user root.
+Jan 14 19:57:19 my-server systemd[1]: Finished User Runtime Directory /run/user/0.
+Jan 14 19:57:19 my-server systemd[1]: Starting User Manager for UID 0...
+Jan 14 19:57:19 my-server systemd[1271496]: Queued start job for default target Main User Target.
+Jan 14 19:57:19 my-server systemd[1271496]: Created slice User Application Slice.
+Jan 14 19:57:19 my-server systemd[1271496]: Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Jan 14 19:57:19 my-server systemd[1271496]: Started Daily Cleanup of User's Temporary Directories.
+Jan 14 19:57:19 my-server systemd[1271496]: Reached target Paths.
+Jan 14 19:57:19 my-server systemd[1271496]: Reached target Timers.
+Jan 14 19:57:19 my-server systemd[1271496]: Starting D-Bus User Message Bus Socket...
+Jan 14 19:57:19 my-server systemd[1271496]: Starting Create User's Volatile Files and Directories...
+Jan 14 19:57:19 my-server systemd[1271496]: Listening on D-Bus User Message Bus Socket.
+Jan 14 19:57:19 my-server systemd[1271496]: Reached target Sockets.
+Jan 14 19:57:19 my-server systemd[1271496]: Finished Create User's Volatile Files and Directories.
+Jan 14 19:57:19 my-server systemd[1271496]: Reached target Basic System.
+Jan 14 19:57:19 my-server systemd[1271496]: Reached target Main User Target.
+Jan 14 19:57:19 my-server systemd[1271496]: Startup finished in 128ms.
+Jan 14 19:57:19 my-server systemd[1]: Started User Manager for UID 0.
+Jan 14 19:57:19 my-server systemd[1]: Started Session 93 of User root.
+Jan 14 19:57:20 my-server systemd[1]: Starting Hostname Service...
+Jan 14 19:57:20 my-server systemd[1]: Started Hostname Service.
+Jan 14 19:57:50 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 14 20:03:02 my-server systemd[1271496]: Created slice User Background Tasks Slice.
+Jan 14 20:03:02 my-server systemd[1271496]: Starting Cleanup of User's Temporary Files and Directories...
+Jan 14 20:03:02 my-server systemd[1271496]: Finished Cleanup of User's Temporary Files and Directories.
+Jan 14 20:36:50 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6073 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 14 20:36:50 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 14 20:36:50 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 20:36:50 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 14 20:53:31 my-server systemd[1]: Starting dnf makecache...
+Jan 14 20:53:31 my-server dnf[1271704]: Docker CE Stable - x86_64                        59 kB/s | 3.5 kB     00:00
+Jan 14 20:53:31 my-server dnf[1271704]: DigitalOcean Droplet Agent                       53 kB/s | 3.3 kB     00:00
+Jan 14 20:53:31 my-server dnf[1271704]: Extra Packages for Enterprise Linux 9 - x86_64  269 kB/s |  37 kB     00:00
+Jan 14 20:53:32 my-server dnf[1271704]: Extra Packages for Enterprise Linux 9 openh264  3.5 kB/s | 993  B     00:00
+Jan 14 20:53:32 my-server dnf[1271704]: MongoDB Repository                               14 kB/s | 1.3 kB     00:00
+Jan 14 20:53:32 my-server dnf[1271704]: Rocky Linux 9 - BaseOS                           35 kB/s | 4.1 kB     00:00
+Jan 14 20:53:33 my-server dnf[1271704]: Rocky Linux 9 - AppStream                        13 kB/s | 4.5 kB     00:00
+Jan 14 20:53:33 my-server dnf[1271704]: Rocky Linux 9 - Extras                          8.0 kB/s | 2.9 kB     00:00
+Jan 14 20:53:33 my-server dnf[1271704]: Metadata cache created.
+Jan 14 20:53:33 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 20:53:33 my-server systemd[1]: Finished dnf makecache.
+Jan 14 20:53:33 my-server systemd[1]: dnf-makecache.service: Consumed 1.840s CPU time.
+Jan 14 22:12:59 my-server systemd[1]: session-93.scope: Deactivated successfully.
+Jan 14 22:12:59 my-server systemd-logind[708]: Session 93 logged out. Waiting for processes to exit.
+Jan 14 22:12:59 my-server systemd-logind[708]: Removed session 93.
+Jan 14 22:13:09 my-server systemd[1]: Stopping User Manager for UID 0...
+Jan 14 22:13:09 my-server systemd[1271496]: Activating special unit Exit the Session...
+Jan 14 22:13:09 my-server systemd[1271496]: Removed slice User Background Tasks Slice.
+Jan 14 22:13:09 my-server systemd[1271496]: Stopped target Main User Target.
+Jan 14 22:13:09 my-server systemd[1271496]: Stopped target Basic System.
+Jan 14 22:13:09 my-server systemd[1271496]: Stopped target Paths.
+Jan 14 22:13:09 my-server systemd[1271496]: Stopped target Sockets.
+Jan 14 22:13:09 my-server systemd[1271496]: Stopped target Timers.
+Jan 14 22:13:09 my-server systemd[1271496]: Stopped Daily Cleanup of User's Temporary Directories.
+Jan 14 22:13:09 my-server systemd[1271496]: Closed D-Bus User Message Bus Socket.
+Jan 14 22:13:09 my-server systemd[1271496]: Stopped Create User's Volatile Files and Directories.
+Jan 14 22:13:09 my-server systemd[1271496]: Removed slice User Application Slice.
+Jan 14 22:13:09 my-server systemd[1271496]: Reached target Shutdown.
+Jan 14 22:13:09 my-server systemd[1271496]: Finished Exit the Session.
+Jan 14 22:13:09 my-server systemd[1271496]: Reached target Exit the Session.
+Jan 14 22:13:09 my-server systemd[1]: user@0.service: Deactivated successfully.
+Jan 14 22:13:09 my-server systemd[1]: Stopped User Manager for UID 0.
+Jan 14 22:13:09 my-server systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 14 22:13:09 my-server systemd[1]: run-user-0.mount: Deactivated successfully.
+Jan 14 22:13:09 my-server systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Jan 14 22:13:09 my-server systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 14 22:13:09 my-server systemd[1]: Removed slice User Slice of UID 0.
+Jan 14 22:30:42 my-server systemd[1]: Starting dnf makecache...
+Jan 14 22:30:42 my-server dnf[1272058]: Metadata cache refreshed recently.
+Jan 14 22:30:42 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 22:30:42 my-server systemd[1]: Finished dnf makecache.
+Jan 14 23:37:02 my-server systemd[1]: Starting dnf makecache...
+Jan 14 23:37:02 my-server dnf[1272407]: Metadata cache refreshed recently.
+Jan 14 23:37:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 14 23:37:02 my-server systemd[1]: Finished dnf makecache.
+Jan 15 00:00:10 my-server systemd[1]: Starting Rotate log files...
+Jan 15 00:00:11 my-server systemd[1]: logrotate.service: Deactivated successfully.
+Jan 15 00:00:11 my-server systemd[1]: Finished Rotate log files.
+Jan 15 00:33:10 my-server auditd[665]: Audit daemon rotating log files
+Jan 15 01:15:23 my-server systemd[1]: Starting dnf makecache...
+Jan 15 01:15:23 my-server dnf[1273085]: Docker CE Stable - x86_64                        49 kB/s | 3.5 kB     00:00
+Jan 15 01:15:23 my-server dnf[1273085]: DigitalOcean Droplet Agent                       39 kB/s | 3.3 kB     00:00
+Jan 15 01:15:24 my-server dnf[1273085]: Extra Packages for Enterprise Linux 9 - x86_64   84 kB/s |  38 kB     00:00
+Jan 15 01:15:24 my-server dnf[1273085]: Extra Packages for Enterprise Linux 9 openh264   12 kB/s | 993  B     00:00
+Jan 15 01:15:25 my-server dnf[1273085]: MongoDB Repository                               17 kB/s | 1.3 kB     00:00
+Jan 15 01:15:25 my-server dnf[1273085]: MongoDB Repository                              411 kB/s |  72 kB     00:00
+Jan 15 01:15:25 my-server dnf[1273085]: Rocky Linux 9 - BaseOS                           16 kB/s | 4.1 kB     00:00
+Jan 15 01:15:25 my-server dnf[1273085]: Rocky Linux 9 - AppStream                        17 kB/s | 4.5 kB     00:00
+Jan 15 01:15:26 my-server dnf[1273085]: Rocky Linux 9 - Extras                           19 kB/s | 2.9 kB     00:00
+Jan 15 01:15:26 my-server dnf[1273085]: Metadata cache created.
+Jan 15 01:15:26 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 01:15:26 my-server systemd[1]: Finished dnf makecache.
+Jan 15 01:15:26 my-server systemd[1]: dnf-makecache.service: Consumed 2.210s CPU time.
+Jan 15 02:57:02 my-server systemd[1]: Starting dnf makecache...
+Jan 15 02:57:02 my-server dnf[1273498]: Metadata cache refreshed recently.
+Jan 15 02:57:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 02:57:03 my-server systemd[1]: Finished dnf makecache.
+Jan 15 04:03:11 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6072 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 15 04:03:11 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 15 04:03:11 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 15 04:03:11 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 15 04:43:31 my-server systemd[1]: Starting dnf makecache...
+Jan 15 04:43:31 my-server dnf[1273918]: Docker CE Stable - x86_64                        73 kB/s | 3.5 kB     00:00
+Jan 15 04:43:31 my-server dnf[1273918]: DigitalOcean Droplet Agent                       64 kB/s | 3.3 kB     00:00
+Jan 15 04:43:31 my-server dnf[1273918]: Extra Packages for Enterprise Linux 9 - x86_64  228 kB/s |  38 kB     00:00
+Jan 15 04:43:32 my-server dnf[1273918]: Extra Packages for Enterprise Linux 9 openh264   12 kB/s | 993  B     00:00
+Jan 15 04:43:32 my-server dnf[1273918]: MongoDB Repository                               15 kB/s | 1.3 kB     00:00
+Jan 15 04:43:32 my-server dnf[1273918]: Rocky Linux 9 - BaseOS                           25 kB/s | 4.1 kB     00:00
+Jan 15 04:43:32 my-server dnf[1273918]: Rocky Linux 9 - AppStream                        25 kB/s | 4.5 kB     00:00
+Jan 15 04:43:33 my-server dnf[1273918]: Rocky Linux 9 - Extras                          6.6 kB/s | 2.9 kB     00:00
+Jan 15 04:43:33 my-server dnf[1273918]: Metadata cache created.
+Jan 15 04:43:33 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 04:43:33 my-server systemd[1]: Finished dnf makecache.
+Jan 15 04:43:33 my-server systemd[1]: dnf-makecache.service: Consumed 1.641s CPU time.
+Jan 15 06:25:59 my-server systemd[1]: Starting dnf makecache...
+Jan 15 06:25:59 my-server dnf[1274252]: Metadata cache refreshed recently.
+Jan 15 06:25:59 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 06:25:59 my-server systemd[1]: Finished dnf makecache.
+Jan 15 07:58:44 my-server systemd[1]: Starting dnf makecache...
+Jan 15 07:58:45 my-server dnf[1274413]: Docker CE Stable - x86_64                        46 kB/s | 3.5 kB     00:00
+Jan 15 07:58:45 my-server dnf[1274413]: DigitalOcean Droplet Agent                       43 kB/s | 3.3 kB     00:00
+Jan 15 07:58:45 my-server dnf[1274413]: Extra Packages for Enterprise Linux 9 - x86_64  226 kB/s |  38 kB     00:00
+Jan 15 07:58:46 my-server dnf[1274413]: Extra Packages for Enterprise Linux 9 openh264  5.8 kB/s | 993  B     00:00
+Jan 15 07:58:46 my-server dnf[1274413]: MongoDB Repository                               22 kB/s | 1.3 kB     00:00
+Jan 15 07:58:46 my-server dnf[1274413]: Rocky Linux 9 - BaseOS                           18 kB/s | 4.1 kB     00:00
+Jan 15 07:58:46 my-server dnf[1274413]: Rocky Linux 9 - AppStream                        18 kB/s | 4.5 kB     00:00
+Jan 15 07:58:47 my-server dnf[1274413]: Rocky Linux 9 - Extras                           21 kB/s | 2.9 kB     00:00
+Jan 15 07:58:47 my-server dnf[1274413]: Metadata cache created.
+Jan 15 07:58:47 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 07:58:47 my-server systemd[1]: Finished dnf makecache.
+Jan 15 07:58:47 my-server systemd[1]: dnf-makecache.service: Consumed 1.741s CPU time.
+Jan 15 09:52:43 my-server systemd[1]: Starting dnf makecache...
+Jan 15 09:52:43 my-server dnf[1274739]: Metadata cache refreshed recently.
+Jan 15 09:52:43 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 09:52:43 my-server systemd[1]: Finished dnf makecache.
+Jan 15 11:15:11 my-server systemd[1]: Starting dnf makecache...
+Jan 15 11:15:12 my-server dnf[1275043]: Docker CE Stable - x86_64                        53 kB/s | 3.5 kB     00:00
+Jan 15 11:15:12 my-server dnf[1275043]: DigitalOcean Droplet Agent                       51 kB/s | 3.3 kB     00:00
+Jan 15 11:15:12 my-server dnf[1275043]: Extra Packages for Enterprise Linux 9 - x86_64   90 kB/s |  38 kB     00:00
+Jan 15 11:15:13 my-server dnf[1275043]: Extra Packages for Enterprise Linux 9 openh264  3.3 kB/s | 993  B     00:00
+Jan 15 11:15:13 my-server dnf[1275043]: MongoDB Repository                              9.1 kB/s | 1.3 kB     00:00
+Jan 15 11:15:13 my-server dnf[1275043]: Rocky Linux 9 - BaseOS                           30 kB/s | 4.1 kB     00:00
+Jan 15 11:15:14 my-server dnf[1275043]: Rocky Linux 9 - AppStream                        13 kB/s | 4.5 kB     00:00
+Jan 15 11:15:14 my-server dnf[1275043]: Rocky Linux 9 - Extras                           18 kB/s | 2.9 kB     00:00
+Jan 15 11:15:14 my-server dnf[1275043]: Metadata cache created.
+Jan 15 11:15:14 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 11:15:14 my-server systemd[1]: Finished dnf makecache.
+Jan 15 11:15:14 my-server systemd[1]: dnf-makecache.service: Consumed 1.862s CPU time.
+Jan 15 12:09:02 my-server systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 15 12:09:02 my-server systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jan 15 12:09:02 my-server systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 15 12:09:02 my-server systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Jan 15 12:50:30 my-server systemd[1]: Starting dnf makecache...
+Jan 15 12:50:31 my-server dnf[1275662]: Metadata cache refreshed recently.
+Jan 15 12:50:31 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 12:50:31 my-server systemd[1]: Finished dnf makecache.
+Jan 15 14:22:02 my-server systemd[1]: Starting dnf makecache...
+Jan 15 14:22:03 my-server dnf[1275969]: Docker CE Stable - x86_64                        24 kB/s | 3.5 kB     00:00
+Jan 15 14:22:03 my-server dnf[1275969]: DigitalOcean Droplet Agent                       25 kB/s | 3.3 kB     00:00
+Jan 15 14:22:03 my-server dnf[1275969]: Extra Packages for Enterprise Linux 9 - x86_64   79 kB/s |  38 kB     00:00
+Jan 15 14:22:04 my-server dnf[1275969]: Extra Packages for Enterprise Linux 9 openh264  6.6 kB/s | 993  B     00:00
+Jan 15 14:22:04 my-server dnf[1275969]: MongoDB Repository                               12 kB/s | 1.3 kB     00:00
+Jan 15 14:22:05 my-server dnf[1275969]: Rocky Linux 9 - BaseOS                           20 kB/s | 4.1 kB     00:00
+Jan 15 14:22:05 my-server dnf[1275969]: Rocky Linux 9 - AppStream                        18 kB/s | 4.5 kB     00:00
+Jan 15 14:22:05 my-server dnf[1275969]: Rocky Linux 9 - Extras                           13 kB/s | 2.9 kB     00:00
+Jan 15 14:22:06 my-server dnf[1275969]: Metadata cache created.
+Jan 15 14:22:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 14:22:06 my-server systemd[1]: Finished dnf makecache.
+Jan 15 14:22:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.256s CPU time.
+Jan 15 14:51:48 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.1 (6074 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 15 14:51:48 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 15 14:51:48 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 15 14:51:48 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 15 15:23:17 my-server systemd[1]: Starting dnf makecache...
+Jan 15 15:23:18 my-server dnf[1276562]: Metadata cache refreshed recently.
+Jan 15 15:23:18 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 15:23:18 my-server systemd[1]: Finished dnf makecache.
+Jan 15 17:05:52 my-server systemd[1]: Starting dnf makecache...
+Jan 15 17:05:52 my-server dnf[1277031]: Metadata cache refreshed recently.
+Jan 15 17:05:52 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 17:05:52 my-server systemd[1]: Finished dnf makecache.
+Jan 15 18:42:02 my-server systemd[1]: Starting dnf makecache...
+Jan 15 18:42:03 my-server dnf[1277148]: Docker CE Stable - x86_64                        27 kB/s | 3.5 kB     00:00
+Jan 15 18:42:03 my-server dnf[1277148]: DigitalOcean Droplet Agent                       31 kB/s | 3.3 kB     00:00
+Jan 15 18:42:03 my-server dnf[1277148]: Extra Packages for Enterprise Linux 9 - x86_64  200 kB/s |  38 kB     00:00
+Jan 15 18:42:04 my-server dnf[1277148]: Extra Packages for Enterprise Linux 9 openh264  3.2 kB/s | 993  B     00:00
+Jan 15 18:42:04 my-server dnf[1277148]: MongoDB Repository                               11 kB/s | 1.3 kB     00:00
+Jan 15 18:42:05 my-server dnf[1277148]: Rocky Linux 9 - BaseOS                           10 kB/s | 4.1 kB     00:00
+Jan 15 18:42:05 my-server dnf[1277148]: Rocky Linux 9 - AppStream                        27 kB/s | 4.5 kB     00:00
+Jan 15 18:42:05 my-server dnf[1277148]: Rocky Linux 9 - Extras                           25 kB/s | 2.9 kB     00:00
+Jan 15 18:42:05 my-server dnf[1277148]: Metadata cache created.
+Jan 15 18:42:05 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 18:42:05 my-server systemd[1]: Finished dnf makecache.
+Jan 15 18:42:05 my-server systemd[1]: dnf-makecache.service: Consumed 2.242s CPU time.
+Jan 15 19:59:02 my-server systemd[1]: Starting dnf makecache...
+Jan 15 19:59:02 my-server dnf[1277239]: Metadata cache refreshed recently.
+Jan 15 19:59:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 19:59:02 my-server systemd[1]: Finished dnf makecache.
+Jan 15 21:00:02 my-server systemd[1]: Starting dnf makecache...
+Jan 15 21:00:03 my-server dnf[1277306]: Metadata cache refreshed recently.
+Jan 15 21:00:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 21:00:03 my-server systemd[1]: Finished dnf makecache.
+Jan 15 22:07:02 my-server systemd[1]: Starting dnf makecache...
+Jan 15 22:07:03 my-server dnf[1277448]: Docker CE Stable - x86_64                        59 kB/s | 3.5 kB     00:00
+Jan 15 22:07:03 my-server dnf[1277448]: DigitalOcean Droplet Agent                       41 kB/s | 3.3 kB     00:00
+Jan 15 22:07:03 my-server dnf[1277448]: Extra Packages for Enterprise Linux 9 - x86_64  249 kB/s |  38 kB     00:00
+Jan 15 22:07:04 my-server dnf[1277448]: Extra Packages for Enterprise Linux 9 openh264  3.4 kB/s | 993  B     00:00
+Jan 15 22:07:04 my-server dnf[1277448]: MongoDB Repository                               16 kB/s | 1.3 kB     00:00
+Jan 15 22:07:04 my-server dnf[1277448]: Rocky Linux 9 - BaseOS                           10 kB/s | 4.1 kB     00:00
+Jan 15 22:07:05 my-server dnf[1277448]: Rocky Linux 9 - BaseOS                          4.7 MB/s | 2.3 MB     00:00
+Jan 15 22:07:06 my-server dnf[1277448]: Rocky Linux 9 - AppStream                        20 kB/s | 4.5 kB     00:00
+Jan 15 22:07:07 my-server dnf[1277448]: Rocky Linux 9 - AppStream                       6.5 MB/s | 8.5 MB     00:01
+Jan 15 22:07:10 my-server dnf[1277448]: Rocky Linux 9 - Extras                           17 kB/s | 2.9 kB     00:00
+Jan 15 22:07:11 my-server dnf[1277448]: Metadata cache created.
+Jan 15 22:07:11 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 22:07:11 my-server systemd[1]: Finished dnf makecache.
+Jan 15 22:07:11 my-server systemd[1]: dnf-makecache.service: Consumed 6.702s CPU time.
+Jan 15 23:21:21 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6072 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 15 23:21:21 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 15 23:21:21 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 15 23:21:21 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 15 23:50:02 my-server systemd[1]: Starting dnf makecache...
+Jan 15 23:50:03 my-server dnf[1277960]: Metadata cache refreshed recently.
+Jan 15 23:50:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 15 23:50:03 my-server systemd[1]: Finished dnf makecache.
+Jan 16 00:00:02 my-server systemd[1]: Starting Rotate log files...
+Jan 16 00:00:02 my-server systemd[1]: logrotate.service: Deactivated successfully.
+Jan 16 00:00:02 my-server systemd[1]: Finished Rotate log files.
+Jan 16 01:03:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 01:03:02 my-server dnf[1278309]: Metadata cache refreshed recently.
+Jan 16 01:03:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 01:03:02 my-server systemd[1]: Finished dnf makecache.
+Jan 16 02:39:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 02:39:03 my-server dnf[1278432]: Docker CE Stable - x86_64                        19 kB/s | 3.5 kB     00:00
+Jan 16 02:39:03 my-server dnf[1278432]: DigitalOcean Droplet Agent                       19 kB/s | 3.3 kB     00:00
+Jan 16 02:39:04 my-server dnf[1278432]: Extra Packages for Enterprise Linux 9 - x86_64   76 kB/s |  10 kB     00:00
+Jan 16 02:39:04 my-server dnf[1278432]: Extra Packages for Enterprise Linux 9 - x86_64   31 MB/s |  23 MB     00:00
+Jan 16 02:39:17 my-server dnf[1278432]: Extra Packages for Enterprise Linux 9 openh264  7.1 kB/s | 993  B     00:00
+Jan 16 02:39:17 my-server dnf[1278432]: MongoDB Repository                               17 kB/s | 1.3 kB     00:00
+Jan 16 02:39:17 my-server dnf[1278432]: Rocky Linux 9 - BaseOS                           40 kB/s | 4.1 kB     00:00
+Jan 16 02:39:17 my-server dnf[1278432]: Rocky Linux 9 - AppStream                        36 kB/s | 4.5 kB     00:00
+Jan 16 02:39:18 my-server dnf[1278432]: Rocky Linux 9 - Extras                          7.9 kB/s | 2.9 kB     00:00
+Jan 16 02:39:19 my-server dnf[1278432]: Metadata cache created.
+Jan 16 02:39:19 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 02:39:19 my-server systemd[1]: Finished dnf makecache.
+Jan 16 02:39:19 my-server systemd[1]: dnf-makecache.service: Consumed 14.404s CPU time.
+Jan 16 03:54:32 my-server systemd[1]: Starting dnf makecache...
+Jan 16 03:54:32 my-server dnf[1278595]: Metadata cache refreshed recently.
+Jan 16 03:54:32 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 03:54:32 my-server systemd[1]: Finished dnf makecache.
+Jan 16 05:10:16 my-server systemd[1]: Starting dnf makecache...
+Jan 16 05:10:16 my-server dnf[1278866]: Metadata cache refreshed recently.
+Jan 16 05:10:16 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 05:10:16 my-server systemd[1]: Finished dnf makecache.
+Jan 16 06:24:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 06:24:03 my-server dnf[1279091]: Docker CE Stable - x86_64                        32 kB/s | 3.5 kB     00:00
+Jan 16 06:24:03 my-server dnf[1279091]: DigitalOcean Droplet Agent                       45 kB/s | 3.3 kB     00:00
+Jan 16 06:24:03 my-server dnf[1279091]: Extra Packages for Enterprise Linux 9 - x86_64   68 kB/s |  11 kB     00:00
+Jan 16 06:24:04 my-server dnf[1279091]: Extra Packages for Enterprise Linux 9 - x86_64   23 MB/s |  23 MB     00:00
+Jan 16 06:24:17 my-server dnf[1279091]: Extra Packages for Enterprise Linux 9 openh264  7.7 kB/s | 993  B     00:00
+Jan 16 06:24:17 my-server dnf[1279091]: MongoDB Repository                               16 kB/s | 1.3 kB     00:00
+Jan 16 06:24:17 my-server dnf[1279091]: Rocky Linux 9 - BaseOS                           19 kB/s | 4.1 kB     00:00
+Jan 16 06:24:17 my-server dnf[1279091]: Rocky Linux 9 - AppStream                       9.7 kB/s | 4.5 kB     00:00
+Jan 16 06:24:18 my-server dnf[1279091]: Rocky Linux 9 - Extras                          7.3 kB/s | 2.9 kB     00:00
+Jan 16 06:24:19 my-server dnf[1279091]: Metadata cache created.
+Jan 16 06:24:19 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 06:24:19 my-server systemd[1]: Finished dnf makecache.
+Jan 16 06:24:19 my-server systemd[1]: dnf-makecache.service: Consumed 14.896s CPU time.
+Jan 16 07:41:47 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 16 07:41:47 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 16 07:41:47 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 16 07:41:47 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 16 07:44:45 my-server systemd[1]: Starting dnf makecache...
+Jan 16 07:44:45 my-server dnf[1279875]: Metadata cache refreshed recently.
+Jan 16 07:44:45 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 07:44:45 my-server systemd[1]: Finished dnf makecache.
+Jan 16 09:21:17 my-server auditd[665]: Audit daemon rotating log files
+Jan 16 09:41:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 09:41:03 my-server dnf[1280662]: Docker CE Stable - x86_64                        46 kB/s | 3.5 kB     00:00
+Jan 16 09:41:03 my-server dnf[1280662]: DigitalOcean Droplet Agent                       36 kB/s | 3.3 kB     00:00
+Jan 16 09:41:03 my-server dnf[1280662]: Extra Packages for Enterprise Linux 9 - x86_64  139 kB/s |  29 kB     00:00
+Jan 16 09:41:04 my-server dnf[1280662]: Extra Packages for Enterprise Linux 9 openh264  6.5 kB/s | 993  B     00:00
+Jan 16 09:41:04 my-server dnf[1280662]: MongoDB Repository                               13 kB/s | 1.3 kB     00:00
+Jan 16 09:41:04 my-server dnf[1280662]: Rocky Linux 9 - BaseOS                           21 kB/s | 4.1 kB     00:00
+Jan 16 09:41:05 my-server dnf[1280662]: Rocky Linux 9 - AppStream                        17 kB/s | 4.5 kB     00:00
+Jan 16 09:41:05 my-server dnf[1280662]: Rocky Linux 9 - Extras                          6.6 kB/s | 2.9 kB     00:00
+Jan 16 09:41:06 my-server dnf[1280662]: Metadata cache created.
+Jan 16 09:41:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 09:41:06 my-server systemd[1]: Finished dnf makecache.
+Jan 16 09:41:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.393s CPU time.
+Jan 16 10:59:12 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6070 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 16 10:59:12 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 16 10:59:12 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 16 10:59:12 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 16 10:59:12 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 16 11:16:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 11:16:02 my-server dnf[1281780]: Metadata cache refreshed recently.
+Jan 16 11:16:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 11:16:02 my-server systemd[1]: Finished dnf makecache.
+Jan 16 12:09:03 my-server systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 16 12:09:03 my-server systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jan 16 12:09:03 my-server systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 16 12:09:03 my-server systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Jan 16 12:23:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 12:23:02 my-server dnf[1282043]: Metadata cache refreshed recently.
+Jan 16 12:23:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 12:23:03 my-server systemd[1]: Finished dnf makecache.
+Jan 16 13:44:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 13:44:03 my-server dnf[1282855]: Docker CE Stable - x86_64                        34 kB/s | 3.5 kB     00:00
+Jan 16 13:44:03 my-server dnf[1282855]: Docker CE Stable - x86_64                       194 kB/s |  62 kB     00:00
+Jan 16 13:44:03 my-server dnf[1282855]: DigitalOcean Droplet Agent                       33 kB/s | 3.3 kB     00:00
+Jan 16 13:44:03 my-server dnf[1282855]: Extra Packages for Enterprise Linux 9 - x86_64  203 kB/s |  29 kB     00:00
+Jan 16 13:44:04 my-server dnf[1282855]: Extra Packages for Enterprise Linux 9 openh264  5.0 kB/s | 993  B     00:00
+Jan 16 13:44:04 my-server dnf[1282855]: MongoDB Repository                               12 kB/s | 1.3 kB     00:00
+Jan 16 13:44:05 my-server dnf[1282855]: Rocky Linux 9 - BaseOS                           17 kB/s | 4.1 kB     00:00
+Jan 16 13:44:05 my-server dnf[1282855]: Rocky Linux 9 - AppStream                        22 kB/s | 4.5 kB     00:00
+Jan 16 13:44:05 my-server dnf[1282855]: Rocky Linux 9 - Extras                           24 kB/s | 2.9 kB     00:00
+Jan 16 13:44:06 my-server dnf[1282855]: Metadata cache created.
+Jan 16 13:44:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 13:44:06 my-server systemd[1]: Finished dnf makecache.
+Jan 16 13:44:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.892s CPU time.
+Jan 16 14:59:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 14:59:02 my-server dnf[1282987]: Metadata cache refreshed recently.
+Jan 16 14:59:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 14:59:02 my-server systemd[1]: Finished dnf makecache.
+Jan 16 16:01:01 my-server systemd[1]: Starting dnf makecache...
+Jan 16 16:01:02 my-server dnf[1283089]: Metadata cache refreshed recently.
+Jan 16 16:01:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 16:01:02 my-server systemd[1]: Finished dnf makecache.
+Jan 16 17:09:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 17:09:03 my-server dnf[1283212]: Docker CE Stable - x86_64                        24 kB/s | 3.5 kB     00:00
+Jan 16 17:09:03 my-server dnf[1283212]: DigitalOcean Droplet Agent                       22 kB/s | 3.3 kB     00:00
+Jan 16 17:09:03 my-server dnf[1283212]: Extra Packages for Enterprise Linux 9 - x86_64  197 kB/s |  33 kB     00:00
+Jan 16 17:09:05 my-server dnf[1283212]: Extra Packages for Enterprise Linux 9 openh264  4.4 kB/s | 993  B     00:00
+Jan 16 17:09:05 my-server dnf[1283212]: MongoDB Repository                               10 kB/s | 1.3 kB     00:00
+Jan 16 17:09:05 my-server dnf[1283212]: Rocky Linux 9 - BaseOS                           27 kB/s | 4.1 kB     00:00
+Jan 16 17:09:05 my-server dnf[1283212]: Rocky Linux 9 - AppStream                        26 kB/s | 4.5 kB     00:00
+Jan 16 17:09:06 my-server dnf[1283212]: Rocky Linux 9 - Extras                          8.7 kB/s | 2.9 kB     00:00
+Jan 16 17:09:06 my-server dnf[1283212]: Metadata cache created.
+Jan 16 17:09:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 17:09:06 my-server systemd[1]: Finished dnf makecache.
+Jan 16 17:09:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.584s CPU time.
+Jan 16 18:31:43 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6070 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 16 18:31:43 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 16 18:31:43 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 16 18:31:43 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 16 18:38:32 my-server systemd[1]: Starting dnf makecache...
+Jan 16 18:38:32 my-server dnf[1283595]: Metadata cache refreshed recently.
+Jan 16 18:38:32 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 18:38:32 my-server systemd[1]: Finished dnf makecache.
+Jan 16 20:23:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 20:23:03 my-server dnf[1283816]: Docker CE Stable - x86_64                        41 kB/s | 3.5 kB     00:00
+Jan 16 20:23:03 my-server dnf[1283816]: DigitalOcean Droplet Agent                       37 kB/s | 3.3 kB     00:00
+Jan 16 20:23:03 my-server dnf[1283816]: Extra Packages for Enterprise Linux 9 - x86_64  170 kB/s |  37 kB     00:00
+Jan 16 20:23:04 my-server dnf[1283816]: Extra Packages for Enterprise Linux 9 openh264  5.3 kB/s | 993  B     00:00
+Jan 16 20:23:07 my-server dnf[1283816]: MongoDB Repository                              638  B/s | 1.3 kB     00:02
+Jan 16 20:23:07 my-server dnf[1283816]: Rocky Linux 9 - BaseOS                           21 kB/s | 4.1 kB     00:00
+Jan 16 20:23:08 my-server dnf[1283816]: Rocky Linux 9 - BaseOS                          1.9 MB/s | 2.3 MB     00:01
+Jan 16 20:23:09 my-server dnf[1283816]: Rocky Linux 9 - AppStream                        12 kB/s | 4.5 kB     00:00
+Jan 16 20:23:10 my-server dnf[1283816]: Rocky Linux 9 - AppStream                        12 MB/s | 8.5 MB     00:00
+Jan 16 20:23:14 my-server dnf[1283816]: Rocky Linux 9 - Extras                           12 kB/s | 2.9 kB     00:00
+Jan 16 20:23:15 my-server dnf[1283816]: Metadata cache created.
+Jan 16 20:23:15 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 20:23:15 my-server systemd[1]: Finished dnf makecache.
+Jan 16 20:23:15 my-server systemd[1]: dnf-makecache.service: Consumed 7.206s CPU time.
+Jan 16 21:58:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 21:58:02 my-server dnf[1284147]: Metadata cache refreshed recently.
+Jan 16 21:58:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 21:58:02 my-server systemd[1]: Finished dnf makecache.
+Jan 16 23:12:02 my-server systemd[1]: Starting dnf makecache...
+Jan 16 23:12:02 my-server dnf[1284713]: Metadata cache refreshed recently.
+Jan 16 23:12:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 16 23:12:02 my-server systemd[1]: Finished dnf makecache.
+Jan 17 00:00:02 my-server systemd[1]: Starting Rotate log files...
+Jan 17 00:00:02 my-server systemd[1]: logrotate.service: Deactivated successfully.
+Jan 17 00:00:02 my-server systemd[1]: Finished Rotate log files.
+Jan 17 00:22:02 my-server systemd[1]: Starting dnf makecache...
+Jan 17 00:22:03 my-server dnf[1284986]: Docker CE Stable - x86_64                        24 kB/s | 3.5 kB     00:00
+Jan 17 00:22:03 my-server dnf[1284986]: DigitalOcean Droplet Agent                       25 kB/s | 3.3 kB     00:00
+Jan 17 00:22:03 my-server dnf[1284986]: Extra Packages for Enterprise Linux 9 - x86_64  261 kB/s |  37 kB     00:00
+Jan 17 00:22:04 my-server dnf[1284986]: Extra Packages for Enterprise Linux 9 openh264  8.1 kB/s | 993  B     00:00
+Jan 17 00:22:04 my-server dnf[1284986]: MongoDB Repository                               11 kB/s | 1.3 kB     00:00
+Jan 17 00:22:05 my-server dnf[1284986]: Rocky Linux 9 - BaseOS                           11 kB/s | 4.1 kB     00:00
+Jan 17 00:22:05 my-server dnf[1284986]: Rocky Linux 9 - AppStream                        20 kB/s | 4.5 kB     00:00
+Jan 17 00:22:05 my-server dnf[1284986]: Rocky Linux 9 - Extras                           13 kB/s | 2.9 kB     00:00
+Jan 17 00:22:06 my-server dnf[1284986]: Metadata cache created.
+Jan 17 00:22:06 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 00:22:06 my-server systemd[1]: Finished dnf makecache.
+Jan 17 00:22:06 my-server systemd[1]: dnf-makecache.service: Consumed 2.361s CPU time.
+Jan 17 01:53:02 my-server systemd[1]: Starting dnf makecache...
+Jan 17 01:53:02 my-server dnf[1285196]: Metadata cache refreshed recently.
+Jan 17 01:53:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 01:53:02 my-server systemd[1]: Finished dnf makecache.
+Jan 17 02:14:12 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6073 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 17 02:14:12 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 17 02:14:12 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 17 02:14:12 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 17 02:14:12 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 17 03:10:13 my-server systemd[1]: Created slice User Slice of UID 0.
+Jan 17 03:10:13 my-server systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 17 03:10:13 my-server systemd-logind[708]: New session 95 of user root.
+Jan 17 03:10:13 my-server systemd[1]: Finished User Runtime Directory /run/user/0.
+Jan 17 03:10:13 my-server systemd[1]: Starting User Manager for UID 0...
+Jan 17 03:10:13 my-server systemd[1285711]: Queued start job for default target Main User Target.
+Jan 17 03:10:13 my-server systemd[1285711]: Created slice User Application Slice.
+Jan 17 03:10:13 my-server systemd[1285711]: Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Jan 17 03:10:13 my-server systemd[1285711]: Started Daily Cleanup of User's Temporary Directories.
+Jan 17 03:10:13 my-server systemd[1285711]: Reached target Paths.
+Jan 17 03:10:13 my-server systemd[1285711]: Reached target Timers.
+Jan 17 03:10:13 my-server systemd[1285711]: Starting D-Bus User Message Bus Socket...
+Jan 17 03:10:13 my-server systemd[1285711]: Starting Create User's Volatile Files and Directories...
+Jan 17 03:10:13 my-server systemd[1285711]: Listening on D-Bus User Message Bus Socket.
+Jan 17 03:10:13 my-server systemd[1285711]: Reached target Sockets.
+Jan 17 03:10:13 my-server systemd[1285711]: Finished Create User's Volatile Files and Directories.
+Jan 17 03:10:13 my-server systemd[1285711]: Reached target Basic System.
+Jan 17 03:10:13 my-server systemd[1285711]: Reached target Main User Target.
+Jan 17 03:10:13 my-server systemd[1285711]: Startup finished in 251ms.
+Jan 17 03:10:13 my-server systemd[1]: Started User Manager for UID 0.
+Jan 17 03:10:13 my-server systemd[1]: Started Session 95 of User root.
+Jan 17 03:10:14 my-server systemd[1]: Starting Hostname Service...
+Jan 17 03:10:14 my-server systemd[1]: Started Hostname Service.
+Jan 17 03:10:44 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 17 03:11:35 my-server systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Jan 17 03:11:35 my-server systemd[1]: Starting man-db-cache-update.service...
+Jan 17 03:11:35 my-server systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Jan 17 03:11:36 my-server systemd[1]: Starting PackageKit Daemon...
+Jan 17 03:11:36 my-server systemd[1]: Started PackageKit Daemon.
+Jan 17 03:11:46 my-server systemd[1]: man-db-cache-update.service: Deactivated successfully.
+Jan 17 03:11:46 my-server systemd[1]: Finished man-db-cache-update.service.
+Jan 17 03:11:46 my-server systemd[1]: man-db-cache-update.service: Consumed 11.242s CPU time.
+Jan 17 03:11:46 my-server systemd[1]: run-r98e72ea034d74045acb9a9b0a9bf5909.service: Deactivated successfully.
+Jan 17 03:11:46 my-server systemd[1]: run-rbe6475df8924448ea5b487255b128fbb.service: Deactivated successfully.
+Jan 17 03:16:02 my-server systemd[1285711]: Created slice User Background Tasks Slice.
+Jan 17 03:16:02 my-server systemd[1285711]: Starting Cleanup of User's Temporary Files and Directories...
+Jan 17 03:16:02 my-server systemd[1285711]: Finished Cleanup of User's Temporary Files and Directories.
+Jan 17 03:16:41 my-server systemd[1]: packagekit.service: Deactivated successfully.
+Jan 17 03:18:51 my-server systemd[1]: Starting dnf makecache...
+Jan 17 03:18:51 my-server dnf[1299155]: Metadata cache refreshed recently.
+Jan 17 03:18:51 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 03:18:51 my-server systemd[1]: Finished dnf makecache.
+Jan 17 03:25:53 my-server systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Jan 17 03:25:53 my-server systemd[1]: Starting man-db-cache-update.service...
+Jan 17 03:25:53 my-server systemd[1]: Starting PackageKit Daemon...
+Jan 17 03:25:53 my-server systemd[1]: man-db-cache-update.service: Deactivated successfully.
+Jan 17 03:25:53 my-server systemd[1]: Finished man-db-cache-update.service.
+Jan 17 03:25:53 my-server systemd[1]: run-r1e7bf788c93842ce9963ccad48a2fb93.service: Deactivated successfully.
+Jan 17 03:25:53 my-server systemd[1]: Started PackageKit Daemon.
+Jan 17 03:26:49 my-server systemd[1]: var-lib-docker-overlay2-1c74395b18e27f4bfb606c21c2703de67e30d95fc8705680e1fcc95d916c1b8b\x2dinit-merged.mount: Deactivated successfully.
+Jan 17 03:26:50 my-server systemd[1]: var-lib-docker-overlay2-1c74395b18e27f4bfb606c21c2703de67e30d95fc8705680e1fcc95d916c1b8b-merged.mount: Deactivated successfully.
+Jan 17 03:26:50 my-server kernel: docker0: port 1(vethe9f3440) entered blocking state
+Jan 17 03:26:50 my-server kernel: docker0: port 1(vethe9f3440) entered disabled state
+Jan 17 03:26:50 my-server kernel: device vethe9f3440 entered promiscuous mode
+Jan 17 03:26:50 my-server NetworkManager[733]: <info>  [1737084410.1814] manager: (veth4a8f2d2): new Veth device (/org/freedesktop/NetworkManager/Devices/3141)
+Jan 17 03:26:50 my-server NetworkManager[733]: <info>  [1737084410.1852] manager: (vethe9f3440): new Veth device (/org/freedesktop/NetworkManager/Devices/3142)
+Jan 17 03:26:50 my-server systemd-udevd[1299418]: Network interface NamePolicy= disabled on kernel command line.
+Jan 17 03:26:50 my-server systemd-udevd[1299417]: Network interface NamePolicy= disabled on kernel command line.
+Jan 17 03:26:50 my-server containerd[62807]: time="2025-01-17T03:26:50.318568245Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 17 03:26:50 my-server containerd[62807]: time="2025-01-17T03:26:50.319194856Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 17 03:26:50 my-server containerd[62807]: time="2025-01-17T03:26:50.319218957Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 17 03:26:50 my-server containerd[62807]: time="2025-01-17T03:26:50.320282829Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 17 03:26:50 my-server systemd[1]: Started libcontainer container 7f442fe31aa97d8c496a715fdc1f78d056e3a79463351073e616f1515c3674b1.
+Jan 17 03:26:50 my-server kernel: eth0: renamed from veth4a8f2d2
+Jan 17 03:26:50 my-server kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethe9f3440: link becomes ready
+Jan 17 03:26:50 my-server kernel: docker0: port 1(vethe9f3440) entered blocking state
+Jan 17 03:26:50 my-server kernel: docker0: port 1(vethe9f3440) entered forwarding state
+Jan 17 03:26:50 my-server NetworkManager[733]: <info>  [1737084410.7304] device (vethe9f3440): carrier: link connected
+Jan 17 03:26:50 my-server NetworkManager[733]: <info>  [1737084410.7307] device (docker0): carrier: link connected
+Jan 17 03:26:50 my-server systemd[1]: docker-7f442fe31aa97d8c496a715fdc1f78d056e3a79463351073e616f1515c3674b1.scope: Deactivated successfully.
+Jan 17 03:26:50 my-server dockerd[62816]: time="2025-01-17T03:26:50.978898884Z" level=info msg="ignoring event" container=7f442fe31aa97d8c496a715fdc1f78d056e3a79463351073e616f1515c3674b1 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 17 03:26:50 my-server containerd[62807]: time="2025-01-17T03:26:50.980915855Z" level=info msg="shim disconnected" id=7f442fe31aa97d8c496a715fdc1f78d056e3a79463351073e616f1515c3674b1 namespace=moby
+Jan 17 03:26:50 my-server containerd[62807]: time="2025-01-17T03:26:50.985149701Z" level=warning msg="cleaning up after shim disconnected" id=7f442fe31aa97d8c496a715fdc1f78d056e3a79463351073e616f1515c3674b1 namespace=moby
+Jan 17 03:26:50 my-server containerd[62807]: time="2025-01-17T03:26:50.985257520Z" level=info msg="cleaning up dead shim" namespace=moby
+Jan 17 03:26:51 my-server dockerd[62816]: time="2025-01-17T03:26:51.007731752Z" level=warning msg="failed to close stdin: NotFound: task 7f442fe31aa97d8c496a715fdc1f78d056e3a79463351073e616f1515c3674b1 not found: not found"
+Jan 17 03:26:51 my-server kernel: docker0: port 1(vethe9f3440) entered disabled state
+Jan 17 03:26:51 my-server kernel: veth4a8f2d2: renamed from eth0
+Jan 17 03:26:51 my-server NetworkManager[733]: <info>  [1737084411.0348] manager: (veth4a8f2d2): new Veth device (/org/freedesktop/NetworkManager/Devices/3143)
+Jan 17 03:26:51 my-server kernel: docker0: port 1(vethe9f3440) entered disabled state
+Jan 17 03:26:51 my-server kernel: device vethe9f3440 left promiscuous mode
+Jan 17 03:26:51 my-server kernel: docker0: port 1(vethe9f3440) entered disabled state
+Jan 17 03:26:51 my-server systemd[1]: run-docker-netns-ebc4b2476e50.mount: Deactivated successfully.
+Jan 17 03:26:51 my-server systemd[1]: var-lib-docker-overlay2-1c74395b18e27f4bfb606c21c2703de67e30d95fc8705680e1fcc95d916c1b8b-merged.mount: Deactivated successfully.
+Jan 17 03:28:24 my-server systemd[1]: Reexecuting.
+Jan 17 03:28:24 my-server systemd: systemd 252-32.el9_4.7 running in system mode (+PAM +AUDIT +SELINUX -APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS -FIDO2 +IDN2 -IDN -IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Jan 17 03:28:24 my-server systemd: Detected virtualization kvm.
+Jan 17 03:28:24 my-server systemd: Detected architecture x86-64.
+Jan 17 03:28:24 my-server systemd-rc-local-generator: /etc/rc.d/rc.local is not marked executable, skipping.
+Jan 17 03:28:24 my-server systemd[1]: Stopping Command Scheduler...
+Jan 17 03:28:24 my-server systemd[1]: crond.service: Deactivated successfully.
+Jan 17 03:28:24 my-server systemd[1]: Stopped Command Scheduler.
+Jan 17 03:28:24 my-server systemd[1]: crond.service: Consumed 8min 1.212s CPU time.
+Jan 17 03:28:24 my-server systemd[1]: Started Command Scheduler.
+Jan 17 03:28:37 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:37 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:37 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:38 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:38 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:39 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:39 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:40 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:40 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:40 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:40 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:28:40 my-server dbus-broker-launch[711]: Noticed file-system modification, trigger reload.
+Jan 17 03:30:27 my-server systemd[1]: Stopping OpenSSH server daemon...
+Jan 17 03:30:27 my-server systemd[1]: sshd.service: Deactivated successfully.
+Jan 17 03:30:27 my-server systemd[1]: Stopped OpenSSH server daemon.
+Jan 17 03:30:27 my-server systemd[1]: sshd.service: Consumed 5h 49min 39.011s CPU time.
+Jan 17 03:30:27 my-server systemd[1]: Stopped target sshd-keygen.target.
+Jan 17 03:30:27 my-server systemd[1]: Stopping sshd-keygen.target...
+Jan 17 03:30:27 my-server systemd[1]: OpenSSH ecdsa Server Key Generation was skipped because of an unmet condition check (ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target).
+Jan 17 03:30:27 my-server systemd[1]: OpenSSH ed25519 Server Key Generation was skipped because of an unmet condition check (ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target).
+Jan 17 03:30:27 my-server systemd[1]: OpenSSH rsa Server Key Generation was skipped because of an unmet condition check (ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target).
+Jan 17 03:30:27 my-server systemd[1]: Reached target sshd-keygen.target.
+Jan 17 03:30:27 my-server systemd[1]: Starting OpenSSH server daemon...
+Jan 17 03:30:27 my-server systemd[1]: Started OpenSSH server daemon.
+Jan 17 03:30:27 my-server systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Jan 17 03:30:27 my-server systemd[1]: Starting man-db-cache-update.service...
+Jan 17 03:30:28 my-server systemd[1]: Reloading.
+Jan 17 03:30:28 my-server systemd-rc-local-generator: /etc/rc.d/rc.local is not marked executable, skipping.
+Jan 17 03:30:28 my-server systemd[1]: Queuing reload/restart jobs for marked units…
+Jan 17 03:30:28 my-server systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Jan 17 03:30:41 my-server systemd[1]: man-db-cache-update.service: Deactivated successfully.
+Jan 17 03:30:41 my-server systemd[1]: Finished man-db-cache-update.service.
+Jan 17 03:30:41 my-server systemd[1]: man-db-cache-update.service: Consumed 10.370s CPU time.
+Jan 17 03:30:41 my-server systemd[1]: run-r0a776ba654ce4999a6b2211c08441236.service: Deactivated successfully.
+Jan 17 03:30:41 my-server systemd[1]: run-rd6bab2736efa4b5ea7f2efdeeebd562e.service: Deactivated successfully.
+Jan 17 03:30:44 my-server systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Jan 17 03:30:44 my-server systemd[1]: Starting man-db-cache-update.service...
+Jan 17 03:30:44 my-server systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Jan 17 03:30:44 my-server systemd[1]: man-db-cache-update.service: Deactivated successfully.
+Jan 17 03:30:44 my-server systemd[1]: Finished man-db-cache-update.service.
+Jan 17 03:30:44 my-server systemd[1]: run-r36385fedf5874984aaaa99951d646443.service: Deactivated successfully.
+Jan 17 03:30:44 my-server systemd[1]: run-r9a657fe2b9cf468d89a7cf0e4923ec80.service: Deactivated successfully.
+Jan 17 03:35:48 my-server systemd[1]: packagekit.service: Deactivated successfully.
+Jan 17 04:32:02 my-server systemd[1]: Starting dnf makecache...
+Jan 17 04:32:02 my-server dnf[1325243]: Docker CE Stable - x86_64                        81 kB/s | 3.5 kB     00:00
+Jan 17 04:32:03 my-server dnf[1325243]: DigitalOcean Droplet Agent                       47 kB/s | 3.3 kB     00:00
+Jan 17 04:32:03 my-server dnf[1325243]: Extra Packages for Enterprise Linux 9 - x86_64   72 kB/s | 8.5 kB     00:00
+Jan 17 04:32:05 my-server dnf[1325243]: Extra Packages for Enterprise Linux 9 - x86_64   12 MB/s |  23 MB     00:01
+Jan 17 04:32:16 my-server dnf[1325243]: Extra Packages for Enterprise Linux 9 openh264  7.1 kB/s | 993  B     00:00
+Jan 17 04:32:16 my-server dnf[1325243]: MongoDB Repository                               24 kB/s | 1.3 kB     00:00
+Jan 17 04:32:16 my-server dnf[1325243]: Rocky Linux 9 - BaseOS                           28 kB/s | 4.1 kB     00:00
+Jan 17 04:32:16 my-server dnf[1325243]: Rocky Linux 9 - AppStream                        38 kB/s | 4.5 kB     00:00
+Jan 17 04:32:16 my-server dnf[1325243]: Rocky Linux 9 - Extras                           20 kB/s | 2.9 kB     00:00
+Jan 17 04:32:18 my-server dnf[1325243]: Metadata cache created.
+Jan 17 04:32:18 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 04:32:18 my-server systemd[1]: Finished dnf makecache.
+Jan 17 04:32:18 my-server systemd[1]: dnf-makecache.service: Consumed 12.950s CPU time.
+Jan 17 05:43:18 my-server systemd[1]: session-95.scope: Deactivated successfully.
+Jan 17 05:43:18 my-server systemd[1]: session-95.scope: Consumed 2min 46.054s CPU time.
+Jan 17 05:43:18 my-server systemd-logind[708]: Session 95 logged out. Waiting for processes to exit.
+Jan 17 05:43:18 my-server systemd-logind[708]: Removed session 95.
+Jan 17 05:43:28 my-server systemd[1]: Stopping User Manager for UID 0...
+Jan 17 05:43:28 my-server systemd[1285711]: Activating special unit Exit the Session...
+Jan 17 05:43:28 my-server systemd[1285711]: Removed slice User Background Tasks Slice.
+Jan 17 05:43:28 my-server systemd[1285711]: Stopped target Main User Target.
+Jan 17 05:43:28 my-server systemd[1285711]: Stopped target Basic System.
+Jan 17 05:43:28 my-server systemd[1285711]: Stopped target Paths.
+Jan 17 05:43:28 my-server systemd[1285711]: Stopped target Sockets.
+Jan 17 05:43:28 my-server systemd[1285711]: Stopped target Timers.
+Jan 17 05:43:28 my-server systemd[1285711]: Stopped Daily Cleanup of User's Temporary Directories.
+Jan 17 05:43:28 my-server systemd[1285711]: Closed D-Bus User Message Bus Socket.
+Jan 17 05:43:28 my-server systemd[1285711]: Stopped Create User's Volatile Files and Directories.
+Jan 17 05:43:28 my-server systemd[1285711]: Removed slice User Application Slice.
+Jan 17 05:43:28 my-server systemd[1285711]: Reached target Shutdown.
+Jan 17 05:43:28 my-server systemd[1285711]: Finished Exit the Session.
+Jan 17 05:43:28 my-server systemd[1285711]: Reached target Exit the Session.
+Jan 17 05:43:28 my-server systemd[1]: user@0.service: Deactivated successfully.
+Jan 17 05:43:28 my-server systemd[1]: Stopped User Manager for UID 0.
+Jan 17 05:43:28 my-server systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 17 05:43:28 my-server systemd[1]: run-user-0.mount: Deactivated successfully.
+Jan 17 05:43:28 my-server systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Jan 17 05:43:28 my-server systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 17 05:43:28 my-server systemd[1]: Removed slice User Slice of UID 0.
+Jan 17 05:43:28 my-server systemd[1]: user-0.slice: Consumed 2min 46.359s CPU time.
+Jan 17 05:46:02 my-server systemd[1]: Starting dnf makecache...
+Jan 17 05:46:03 my-server dnf[1325486]: Metadata cache refreshed recently.
+Jan 17 05:46:03 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 05:46:03 my-server systemd[1]: Finished dnf makecache.
+Jan 17 07:25:00 my-server systemd[1]: Starting dnf makecache...
+Jan 17 07:25:00 my-server dnf[1325909]: Metadata cache refreshed recently.
+Jan 17 07:25:00 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 07:25:00 my-server systemd[1]: Finished dnf makecache.
+Jan 17 09:17:55 my-server systemd[1]: Starting dnf makecache...
+Jan 17 09:17:55 my-server dnf[1326725]: Docker CE Stable - x86_64                       131 kB/s | 3.5 kB     00:00
+Jan 17 09:17:55 my-server dnf[1326725]: DigitalOcean Droplet Agent                       99 kB/s | 3.3 kB     00:00
+Jan 17 09:17:55 my-server dnf[1326725]: Extra Packages for Enterprise Linux 9 - x86_64  213 kB/s |  35 kB     00:00
+Jan 17 09:17:56 my-server dnf[1326725]: Extra Packages for Enterprise Linux 9 openh264  9.9 kB/s | 993  B     00:00
+Jan 17 09:17:56 my-server dnf[1326725]: MongoDB Repository                               27 kB/s | 1.3 kB     00:00
+Jan 17 09:17:56 my-server dnf[1326725]: Rocky Linux 9 - BaseOS                           46 kB/s | 4.1 kB     00:00
+Jan 17 09:17:56 my-server dnf[1326725]: Rocky Linux 9 - AppStream                        36 kB/s | 4.5 kB     00:00
+Jan 17 09:17:56 my-server dnf[1326725]: Rocky Linux 9 - Extras                           35 kB/s | 2.9 kB     00:00
+Jan 17 09:17:56 my-server dnf[1326725]: Metadata cache created.
+Jan 17 09:17:56 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 09:17:56 my-server systemd[1]: Finished dnf makecache.
+Jan 17 09:17:56 my-server systemd[1]: dnf-makecache.service: Consumed 1.375s CPU time.
+Jan 17 09:31:02 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6073 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 17 09:31:02 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 17 09:31:02 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 17 09:31:02 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 17 09:58:41 my-server systemd[1]: Created slice User Slice of UID 0.
+Jan 17 09:58:41 my-server systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 17 09:58:41 my-server systemd-logind[708]: New session 97 of user root.
+Jan 17 09:58:41 my-server systemd[1]: Finished User Runtime Directory /run/user/0.
+Jan 17 09:58:41 my-server systemd[1]: Starting User Manager for UID 0...
+Jan 17 09:58:41 my-server systemd[1326871]: Queued start job for default target Main User Target.
+Jan 17 09:58:41 my-server systemd[1326871]: Created slice User Application Slice.
+Jan 17 09:58:41 my-server systemd[1326871]: Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Jan 17 09:58:41 my-server systemd[1326871]: Started Daily Cleanup of User's Temporary Directories.
+Jan 17 09:58:41 my-server systemd[1326871]: Reached target Paths.
+Jan 17 09:58:41 my-server systemd[1326871]: Reached target Timers.
+Jan 17 09:58:41 my-server systemd[1326871]: Starting D-Bus User Message Bus Socket...
+Jan 17 09:58:41 my-server systemd[1326871]: PipeWire PulseAudio was skipped because of an unmet condition check (ConditionUser=!root).
+Jan 17 09:58:41 my-server systemd[1326871]: Listening on PipeWire Multimedia System Sockets.
+Jan 17 09:58:41 my-server systemd[1326871]: Starting Create User's Volatile Files and Directories...
+Jan 17 09:58:41 my-server systemd[1326871]: Listening on D-Bus User Message Bus Socket.
+Jan 17 09:58:41 my-server systemd[1326871]: Finished Create User's Volatile Files and Directories.
+Jan 17 09:58:41 my-server systemd[1326871]: Reached target Sockets.
+Jan 17 09:58:41 my-server systemd[1326871]: Reached target Basic System.
+Jan 17 09:58:41 my-server systemd[1]: Started User Manager for UID 0.
+Jan 17 09:58:41 my-server systemd[1326871]: Reached target Main User Target.
+Jan 17 09:58:41 my-server systemd[1326871]: Startup finished in 156ms.
+Jan 17 09:58:41 my-server systemd[1]: Started Session 97 of User root.
+Jan 17 09:58:42 my-server systemd[1]: Starting Hostname Service...
+Jan 17 09:58:42 my-server systemd[1]: Started Hostname Service.
+Jan 17 09:59:12 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 17 10:04:02 my-server systemd[1326871]: Created slice User Background Tasks Slice.
+Jan 17 10:04:02 my-server systemd[1326871]: Starting Cleanup of User's Temporary Files and Directories...
+Jan 17 10:04:02 my-server systemd[1326871]: Finished Cleanup of User's Temporary Files and Directories.
+Jan 17 10:04:16 my-server auditd[665]: Audit daemon rotating log files
+Jan 17 10:16:47 my-server systemd-logind[708]: New session 99 of user root.
+Jan 17 10:16:47 my-server systemd[1]: Started Session 99 of User root.
+Jan 17 10:16:48 my-server systemd[1]: Starting Hostname Service...
+Jan 17 10:16:48 my-server systemd[1]: Started Hostname Service.
+Jan 17 10:17:02 my-server systemd[1]: session-99.scope: Deactivated successfully.
+Jan 17 10:17:02 my-server systemd-logind[708]: Session 99 logged out. Waiting for processes to exit.
+Jan 17 10:17:02 my-server systemd-logind[708]: Removed session 99.
+Jan 17 10:17:17 my-server systemd-logind[708]: New session 100 of user root.
+Jan 17 10:17:17 my-server systemd[1]: Started Session 100 of User root.
+Jan 17 10:17:18 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 17 10:18:41 my-server systemd[1]: session-100.scope: Deactivated successfully.
+Jan 17 10:18:41 my-server systemd-logind[708]: Session 100 logged out. Waiting for processes to exit.
+Jan 17 10:18:41 my-server systemd-logind[708]: Removed session 100.
+Jan 17 11:06:46 my-server systemd[1]: Starting dnf makecache...
+Jan 17 11:06:46 my-server dnf[1327732]: Metadata cache refreshed recently.
+Jan 17 11:06:46 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 11:06:46 my-server systemd[1]: Finished dnf makecache.
+Jan 17 12:09:56 my-server systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 17 12:09:56 my-server systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jan 17 12:09:56 my-server systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 17 12:09:56 my-server systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Jan 17 12:15:01 my-server systemd[1]: session-97.scope: Deactivated successfully.
+Jan 17 12:15:01 my-server systemd-logind[708]: Session 97 logged out. Waiting for processes to exit.
+Jan 17 12:15:01 my-server systemd-logind[708]: Removed session 97.
+Jan 17 12:15:11 my-server systemd[1]: Stopping User Manager for UID 0...
+Jan 17 12:15:11 my-server systemd[1326871]: Activating special unit Exit the Session...
+Jan 17 12:15:11 my-server systemd[1326871]: Removed slice User Background Tasks Slice.
+Jan 17 12:15:11 my-server systemd[1326871]: Stopped target Main User Target.
+Jan 17 12:15:11 my-server systemd[1326871]: Stopped target Basic System.
+Jan 17 12:15:11 my-server systemd[1326871]: Stopped target Paths.
+Jan 17 12:15:11 my-server systemd[1326871]: Stopped target Sockets.
+Jan 17 12:15:11 my-server systemd[1326871]: Stopped target Timers.
+Jan 17 12:15:11 my-server systemd[1326871]: Stopped Daily Cleanup of User's Temporary Directories.
+Jan 17 12:15:11 my-server systemd[1326871]: Closed D-Bus User Message Bus Socket.
+Jan 17 12:15:11 my-server systemd[1326871]: Closed PipeWire Multimedia System Sockets.
+Jan 17 12:15:11 my-server systemd[1326871]: Stopped Create User's Volatile Files and Directories.
+Jan 17 12:15:11 my-server systemd[1326871]: Removed slice User Application Slice.
+Jan 17 12:15:11 my-server systemd[1326871]: Reached target Shutdown.
+Jan 17 12:15:11 my-server systemd[1326871]: Finished Exit the Session.
+Jan 17 12:15:11 my-server systemd[1326871]: Reached target Exit the Session.
+Jan 17 12:15:11 my-server systemd[1]: user@0.service: Deactivated successfully.
+Jan 17 12:15:11 my-server systemd[1]: Stopped User Manager for UID 0.
+Jan 17 12:15:11 my-server systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 17 12:15:11 my-server systemd[1]: run-user-0.mount: Deactivated successfully.
+Jan 17 12:15:11 my-server systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Jan 17 12:15:11 my-server systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 17 12:15:11 my-server systemd[1]: Removed slice User Slice of UID 0.
+Jan 17 12:37:54 my-server systemd[1]: Starting dnf makecache...
+Jan 17 12:37:55 my-server dnf[1328326]: Docker CE Stable - x86_64                       108 kB/s | 3.5 kB     00:00
+Jan 17 12:37:55 my-server dnf[1328326]: DigitalOcean Droplet Agent                       82 kB/s | 3.3 kB     00:00
+Jan 17 12:37:55 my-server dnf[1328326]: Extra Packages for Enterprise Linux 9 - x86_64  241 kB/s |  35 kB     00:00
+Jan 17 12:37:55 my-server dnf[1328326]: Extra Packages for Enterprise Linux 9 openh264  7.1 kB/s | 993  B     00:00
+Jan 17 12:37:55 my-server dnf[1328326]: MongoDB Repository                               25 kB/s | 1.3 kB     00:00
+Jan 17 12:37:55 my-server dnf[1328326]: Rocky Linux 9 - BaseOS                           48 kB/s | 4.1 kB     00:00
+Jan 17 12:37:56 my-server dnf[1328326]: Rocky Linux 9 - AppStream                        37 kB/s | 4.5 kB     00:00
+Jan 17 12:37:56 my-server dnf[1328326]: Rocky Linux 9 - Extras                           15 kB/s | 2.9 kB     00:00
+Jan 17 12:37:56 my-server dnf[1328326]: Metadata cache created.
+Jan 17 12:37:56 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 12:37:56 my-server systemd[1]: Finished dnf makecache.
+Jan 17 12:37:56 my-server systemd[1]: dnf-makecache.service: Consumed 1.545s CPU time.
+Jan 17 13:08:09 my-server systemd-journald[50241]: Data hash table of /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal has a fill level at 75.0 (6071 of 8092 items, 4661248 file size, 767 bytes per hash table item), suggesting rotation.
+Jan 17 13:08:09 my-server systemd-journald[50241]: /run/log/journal/f59d9522da884d10bc138db1fc4fcc48/system.journal: Journal header limits reached or header out-of-date, rotating.
+Jan 17 13:08:09 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 17 13:08:09 my-server rsyslogd[50239]: imjournal: journal files changed, reloading...  [v8.2310.0-4.el9 try https://www.rsyslog.com/e/0 ]
+Jan 17 13:51:02 my-server systemd[1]: Starting dnf makecache...
+Jan 17 13:51:02 my-server dnf[1328916]: Metadata cache refreshed recently.
+Jan 17 13:51:02 my-server systemd[1]: dnf-makecache.service: Deactivated successfully.
+Jan 17 13:51:02 my-server systemd[1]: Finished dnf makecache.
+Jan 17 14:07:43 my-server systemd[1]: Created slice User Slice of UID 0.
+Jan 17 14:07:43 my-server systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 17 14:07:43 my-server systemd-logind[708]: New session 101 of user root.
+Jan 17 14:07:44 my-server systemd[1]: Finished User Runtime Directory /run/user/0.
+Jan 17 14:07:44 my-server systemd[1]: Starting User Manager for UID 0...
+Jan 17 14:07:44 my-server systemd[1329014]: Queued start job for default target Main User Target.
+Jan 17 14:07:44 my-server systemd[1329014]: Created slice User Application Slice.
+Jan 17 14:07:44 my-server systemd[1329014]: Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Jan 17 14:07:44 my-server systemd[1329014]: Started Daily Cleanup of User's Temporary Directories.
+Jan 17 14:07:44 my-server systemd[1329014]: Reached target Paths.
+Jan 17 14:07:44 my-server systemd[1329014]: Reached target Timers.
+Jan 17 14:07:44 my-server systemd[1329014]: Starting D-Bus User Message Bus Socket...
+Jan 17 14:07:44 my-server systemd[1329014]: PipeWire PulseAudio was skipped because of an unmet condition check (ConditionUser=!root).
+Jan 17 14:07:44 my-server systemd[1329014]: Listening on PipeWire Multimedia System Sockets.
+Jan 17 14:07:44 my-server systemd[1329014]: Starting Create User's Volatile Files and Directories...
+Jan 17 14:07:44 my-server systemd[1329014]: Listening on D-Bus User Message Bus Socket.
+Jan 17 14:07:44 my-server systemd[1329014]: Reached target Sockets.
+Jan 17 14:07:44 my-server systemd[1329014]: Finished Create User's Volatile Files and Directories.
+Jan 17 14:07:44 my-server systemd[1329014]: Reached target Basic System.
+Jan 17 14:07:44 my-server systemd[1329014]: Reached target Main User Target.
+Jan 17 14:07:44 my-server systemd[1329014]: Startup finished in 134ms.
+Jan 17 14:07:44 my-server systemd[1]: Started User Manager for UID 0.
+Jan 17 14:07:44 my-server systemd[1]: Started Session 101 of User root.
+Jan 17 14:07:44 my-server systemd[1]: Starting Hostname Service...
+Jan 17 14:07:44 my-server systemd[1]: Started Hostname Service.
+Jan 17 14:08:14 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 17 14:13:02 my-server systemd[1329014]: Created slice User Background Tasks Slice.
+Jan 17 14:13:02 my-server systemd[1329014]: Starting Cleanup of User's Temporary Files and Directories...
+Jan 17 14:13:02 my-server systemd[1329014]: Finished Cleanup of User's Temporary Files and Directories.
+Jan 17 14:14:24 my-server systemd-logind[708]: New session 103 of user root.
+Jan 17 14:14:24 my-server systemd[1]: Started Session 103 of User root.
+Jan 17 14:14:24 my-server systemd[1]: Starting Hostname Service...
+Jan 17 14:14:25 my-server systemd[1]: Started Hostname Service.
+Jan 17 14:14:55 my-server systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 17 14:20:30 my-server systemd[1]: session-103.scope: Deactivated successfully.
+Jan 17 14:20:30 my-server systemd[1]: session-103.scope: Consumed 5.913s CPU time.
+Jan 17 14:20:30 my-server systemd-logind[708]: Session 103 logged out. Waiting for processes to exit.
+Jan 17 14:20:30 my-server systemd-logind[708]: Removed session 103.
+Jan 17 14:20:43 my-server systemd-logind[708]: New session 104 of user root.
+Jan 17 14:20:43 my-server systemd[1]: Started Session 104 of User root.
+Jan 17 14:20:58 my-server systemd[1]: session-104.scope: Deactivated successfully.
+Jan 17 14:20:58 my-server systemd-logind[708]: Session 104 logged out. Waiting for processes to exit.
+Jan 17 14:20:58 my-server systemd-logind[708]: Removed session 104.
+Jan 17 14:22:03 my-server systemd-logind[708]: New session 105 of user root.
+Jan 17 14:22:03 my-server systemd[1]: Started Session 105 of User root.
