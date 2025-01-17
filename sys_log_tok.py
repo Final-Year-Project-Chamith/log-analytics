@@ -33,8 +33,8 @@ def tokenize_message_log(input_file, output_file):
         json.dump(tokenized_entries, output, indent=4)
     print(f"Tokenized logs saved to {output_file}")
 
-# Path to the messages log file and output file
-input_file = "/var/log/messages"  # Replace with the path to your messages file
-output_file = "/root/container_logs/sys_log_tok.json"  # Replace with your desired output path
+
+input_file = "/var/log/messages"
+output_file = "/root/container_logs/sys_log_tok.json"
 
 tokenize_message_log(input_file, output_file)

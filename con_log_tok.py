@@ -34,8 +34,8 @@ def tokenize_logs(directory, output_file):
         json.dump(results, output, indent=4)
     print(f"Tokenized logs saved to {output_file}")
 
-# Directory containing the log files and output file path
-directory = "/var/lib/docker/containers"  # Path to the Docker containers' log directory
-output_file = "/root/container_logs/tokenized_logs.json"  # Replace with your desired output path
+
+directory = "/var/lib/docker/containers"  
+output_file = "/root/container_logs/tokenized_logs.json"  
 
 tokenize_logs(directory, output_file)
