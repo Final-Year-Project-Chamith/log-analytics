@@ -1,7 +1,7 @@
 import json
 import os
 
-def tokenize_logs(directory, output_file):
+def tokenize_container_logs(directory, output_file):
     results = {}
 
     for root, _, files in os.walk(directory):
