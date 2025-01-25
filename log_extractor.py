@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 import logging
 
-
+# Set up logging
 logging.basicConfig(
     filename="/root/processed_logs/script_debug.log",
     level=logging.DEBUG,
@@ -59,79 +59,54 @@ def tokenize_host_logs(input_file, output_file):
     logging.info(f"Host logs tokenized and saved to {output_file}")
 
 
-# def tokenize_container_logs(directory, output_file):
-#     results = []
-#     try:
-#         for root, _, files in os.walk(directory):
-#             for filename in files:
-#                 if filename.endswith(".log"):
-#                     container_id = os.path.basename(root)
-#                     file_path = os.path.join(root, filename)
-
-#                     with open(file_path, "r") as file:
-#                         for line in file:
-#                             try:
-#                                 log_entry = json.loads(line.strip())
-#                                 tokenized_entry = {
-#                                     "source": "container",
-#                                     "timestamp": (
-#                                         datetime.fromisoformat(
-#                                             log_entry.get("time", "").replace("Z", "")
-#                                         ).isoformat()
-#                                         if log_entry.get("time")
-#                                         else None
-#                                     ),
-#                                     "container_id": container_id,
-#                                     "stream": log_entry.get("stream", ""),
-#                                     "message": log_entry.get("log", "").strip(),
-#                                 }
-#                                 results.append(tokenized_entry)
-#                             except json.JSONDecodeError as e:
-#                                 logging.warning(
-#                                     f"JSON decoding error in {filename}: {e}"
-#                                 )
-#     except Exception as e:
-#         logging.error(f"Error processing container logs: {e}")
-
-#     with open(output_file, "w") as output:
-#         json.dump(results, output, indent=4)
-#     logging.info(f"Container logs tokenized and saved to {output_file}")
-
-
 def tokenize_container_logs(directory, output_file):
-    results = {}
+    results = []
+    try:
+        for root, _, files in os.walk(directory):
+            for filename in files:
+                if filename.endswith(".log"):
+                    container_id = os.path.basename(root)
+                    file_path = os.path.join(root, filename)
 
-    for root, _, files in os.walk(directory):
-        for filename in files:
-            if filename.endswith(".log"):
-                container_id = os.path.basename(root)
-                file_path = os.path.join(root, filename)
+                    with open(file_path, "r") as file:
+                        for line in file:
+                            try:
+                                log_entry = json.loads(line.strip())
+                                raw_time = log_entry.get("time", "")
+                                # Normalize timestamp (truncate excessive fractional seconds)
+                                if raw_time and "." in raw_time:
+                                    normalized_time = raw_time.split(".")[0] + "Z"
+                                else:
+                                    normalized_time = raw_time
 
-                with open(file_path, "r") as file:
-                    tokenized_entries = []
-                    for line in file:
-                        try:
-                            log_entry = json.loads(line.strip())
-                            tokenized_entry = {
-                                "source": "container",
-                                "containerID": container_id,
-                                "log": log_entry.get("log", "").strip(),
-                                "stream": log_entry.get("stream", ""),
-                                "time": log_entry.get("time", ""),
-                            }
-                            tokenized_entries.append(tokenized_entry)
-                        except json.JSONDecodeError:
-                            print(
-                                f"Error decoding JSON line in {filename}: {line.strip()}"
-                            )
-                    if container_id not in results:
-                        results[container_id] = []
-                    results[container_id].extend(tokenized_entries)
+                                tokenized_entry = {
+                                    "source": "container",
+                                    "timestamp": (
+                                        datetime.fromisoformat(
+                                            normalized_time.replace("Z", "")
+                                        ).isoformat()
+                                        if normalized_time
+                                        else None
+                                    ),
+                                    "container_id": container_id,
+                                    "stream": log_entry.get("stream", ""),
+                                    "message": log_entry.get("log", "").strip(),
+                                }
+                                results.append(tokenized_entry)
+                            except json.JSONDecodeError as e:
+                                logging.warning(
+                                    f"JSON decoding error in {filename}: {e}"
+                                )
+                            except ValueError as e:
+                                logging.warning(
+                                    f"Invalid timestamp format in {filename}: {raw_time} - {e}"
+                                )
+    except Exception as e:
+        logging.error(f"Error processing container logs: {e}")
 
     with open(output_file, "w") as output:
         json.dump(results, output, indent=4)
     logging.info(f"Container logs tokenized and saved to {output_file}")
-    print(f"Tokenized container logs saved to {output_file}")
 
 
 def merge_logs(host_log_file, container_log_file, output_file):
